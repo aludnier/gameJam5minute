@@ -2,7 +2,7 @@ extends CharacterBody3D
 
 @onready var nav_agent = $NavigationAgent3D
 @export var player_path := "/root/Main/Player2"
-
+@export var ROTATION_SPEED = 5.0
 var SPEED = 3
 
 func _ready():
@@ -12,8 +12,16 @@ func _ready():
 func _physics_process(delta: float) -> void:
 	var current_location  = global_transform.origin
 	var next_location = nav_agent.get_next_path_position()
-	var new_velocity = (next_location - current_location).normalized() * SPEED
+	var direction = (next_location - current_location)
+	direction.y = 0
+
+	if direction.length() > 0.01:
+		var target_rotation = Transform3D().looking_at(direction.normalized(), Vector3.UP).basis.get_euler()
+		target_rotation.y += deg_to_rad(180)
+		rotation.y = lerp_angle(rotation.y, target_rotation.y, ROTATION_SPEED * delta)
 	
+	var new_velocity = direction.normalized() * SPEED
+	velocity += get_gravity() * delta
 	nav_agent.set_velocity(new_velocity)
 
 

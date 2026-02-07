@@ -42,7 +42,7 @@ extends CharacterBody3D
 ## Name of Input Action to Sprint.
 @export var input_sprint : String = "sprint"
 ## Name of Input Action to toggle freefly mode.
-@export var input_freefly : String = "freefly"
+@export var input_freefly : String = " ' sss"
 
 var mouse_captured : bool = false
 var look_rotation : Vector2

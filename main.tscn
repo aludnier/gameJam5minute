@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://buqs80r1i0e43"]
+[gd_scene format=3 uid="uid://1gdq008riywo"]
 
 [ext_resource type="Texture2D" uid="uid://h2qk5a6cgqbr" path="res://shader/seamless-textured-grass-natural-grass-pattern/Cartoon_green_texture_grass.jpg" id="1_272bh"]
 [ext_resource type="Script" uid="uid://bvy3wggnuyfjq" path="res://Scripts/ScriptMain.gd" id="1_dg77c"]
@@ -348,34 +348,34 @@ use_collision = true
 size = Vector3(111.13482, 1.305, 115.59857)
 material = SubResource("StandardMaterial3D_h2yge")
 
-[node name="Enemy" parent="." unique_id=528229346 instance=ExtResource("13_ycdy4")]
+[node name="Enemy" parent="." unique_id=249537311 instance=ExtResource("13_ycdy4")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.6, 1.1, 2.5)
 
 [node name="Spawns" type="Node3D" parent="." unique_id=1791248459]
 
 [node name="Spawn1" type="Node3D" parent="Spawns" unique_id=2010771370]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.9, 1.7, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.9, 1.1, 0)
 
 [node name="Spawn2" type="Node3D" parent="Spawns" unique_id=403531602]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.9, 1.7, 5.4)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.9, 1.1, 5.4)
 
 [node name="Spawn3" type="Node3D" parent="Spawns" unique_id=1063169952]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5, 1.7, -3.4)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5, 1.1, -3.4)
 
 [node name="Spawn4" type="Node3D" parent="Spawns" unique_id=1426519323]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.400002, 1.7, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.400002, 1.1, 0)
 
 [node name="Spawn5" type="Node3D" parent="Spawns" unique_id=1286806891]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.9, 1.7, 21.6)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.9, 1.1, 21.6)
 
 [node name="Spawn6" type="Node3D" parent="Spawns" unique_id=660591184]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.6, 1.7, 16.1)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.6, 1.1, 16.1)
 
 [node name="Spawn7" type="Node3D" parent="Spawns" unique_id=744249950]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.000002, 1.7, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.000002, 1.1, 0)
 
 [node name="Spawn8" type="Node3D" parent="Spawns" unique_id=847427129]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.2, 1.7, -6.4)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.2, 1.1, -6.4)
 
 [node name="EnemySpawnTimer" type="Timer" parent="." unique_id=97961402]
 wait_time = 2.0

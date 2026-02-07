@@ -1,0 +1,37 @@
+[gd_scene format=3 uid="uid://c3ymo6borwxki"]
+
+[ext_resource type="PackedScene" uid="uid://cs61gfaugnmgr" path="res://Asset/PlayStation 2 - Yu-Gi-Oh! The Duelists of the Roses - Monsters - Man-Eater Bug/Man - Eater Bug.glb" id="1_yxvaj"]
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_yxvaj"]
+animation = &"spawn"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_djy5i"]
+animation = &"walk"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_yxvaj"]
+switch_mode = 2
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_djy5i"]
+switch_mode = 2
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_uvtxw"]
+switch_mode = 2
+
+[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_lmrds"]
+states/Start/position = Vector2(234, 108)
+states/spawn/node = SubResource("AnimationNodeAnimation_yxvaj")
+states/spawn/position = Vector2(397, 89)
+states/walk/node = SubResource("AnimationNodeAnimation_djy5i")
+states/walk/position = Vector2(632, 100)
+transitions = ["Start", "spawn", SubResource("AnimationNodeStateMachineTransition_yxvaj"), "spawn", "walk", SubResource("AnimationNodeStateMachineTransition_djy5i"), "walk", "End", SubResource("AnimationNodeStateMachineTransition_uvtxw")]
+
+[node name="Man - Eater Bug" unique_id=954575182 instance=ExtResource("1_yxvaj")]
+
+[node name="AnimationPlayer" parent="." index="1" unique_id=1966723020]
+autoplay = &"spawn"
+
+[node name="AnimationTree" type="AnimationTree" parent="." index="2" unique_id=176285886]
+tree_root = SubResource("AnimationNodeStateMachine_lmrds")
+anim_player = NodePath("../AnimationPlayer")
