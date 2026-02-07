@@ -11,6 +11,7 @@
 [ext_resource type="PackedScene" uid="uid://c14aonvy6tlaq" path="res://Asset/Farm Buildings by Quaternius/FBX/ChickenCoop.fbx" id="9_efxa6"]
 [ext_resource type="PackedScene" uid="uid://jjd0lf6rhkki" path="res://Models/mounting_3.tscn" id="10_dg77c"]
 [ext_resource type="PackedScene" uid="uid://jvfdjf2y44f7" path="res://Models/grass.tscn" id="11_efxa6"]
+[ext_resource type="PackedScene" uid="uid://c3ymo6borwxki" path="res://Models/man_eater_bug.tscn" id="12_dg77c"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_7mycd"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -48,7 +49,7 @@ environment = SubResource("Environment_5vw27")
 
 [node name="ground" type="CSGBox3D" parent="." unique_id=475004050]
 physics_interpolation_mode = 1
-transform = Transform3D(0.99996704, -0.005538369, 0.0059248903, 0.00557785, 0.9999623, -0.0066628978, -0.005887736, 0.006695753, 0.99996036, 2.3255315, 0.32985345, 13.823339)
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 1.0000001, 2.3255315, 0.32985345, 13.823339)
 use_collision = true
 size = Vector3(111.13482, 1.305, 115.59857)
 material = SubResource("StandardMaterial3D_h2yge")
@@ -355,3 +356,6 @@ transform = Transform3D(-0.7646404, 0, 0.6444573, 0, 1, 0, -0.6444573, 0, -0.764
 
 [node name="Grass_31" parent="Grass" unique_id=1144440058 instance=ExtResource("11_efxa6")]
 transform = Transform3D(-0.7646404, 0, 0.6444573, 0, 1, 0, -0.6444573, 0, -0.7646404, 16.091211, 1.3037978, -21.193472)
+
+[node name="Man - Eater Bug" parent="." unique_id=617500940 instance=ExtResource("12_dg77c")]
+transform = Transform3D(-0.81948227, 0, 0.5731045, 0, 1, 0, -0.5731045, 0, -0.81948227, -1.743253, 0.9823532, 4.8344617)
