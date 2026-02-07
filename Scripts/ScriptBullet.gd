@@ -1,6 +1,6 @@
 extends Node3D
 
-const SPEED = 20.0
+const SPEED = 5.0
 
 @onready var mesh = $MeshInstance3D
 @onready var ray = $RayCast3D
@@ -19,6 +19,9 @@ func _process(delta: float):
 		particles.emitting = true
 		await get_tree().create_timer(1.0).timeout
 		queue_free()
+	else:
+		position += transform.basis * Vector3(0, 0, -SPEED) * delta
+
 
 
 func _on_timer_timeout() -> void:
