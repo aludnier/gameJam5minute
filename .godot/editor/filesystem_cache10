@@ -1,3 +1,87 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1770456335
+::res://::1770468086
+character_body_3d.gd::GDScript::7439352202835602225::1770457834::0::1::::<>CharacterBody3D<><>0<>0<><>::
 icon.svg::CompressedTexture2D::8451715702406257434::1770455929::1770456335::1::::<><><>0<>0<>e12e03689e011b3416e8d093c6868e74<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+main.tscn::PackedScene::1837508278020272010::1770468086::0::1::::<><><>0<>0<><>::uid://h2qk5a6cgqbr::::res://shader/seamless-textured-grass-natural-grass-pattern/Cartoon_green_texture_grass.jpg<>uid://cnkkqhk1hnps0::::res://player.gd<>uid://b4gh6p0q0uf63::::res://Models/BarnClose.tscn<>uid://bisq706ua6qna::::res://Models/big_barn.tscn<>uid://dddo2xlmb5mx5::::res://Models/fence.tscn<>uid://ch6ga2a8cox7g::::res://Models/silo.tscn<>uid://dyjivh8d637ar::::res://Models/silo_house.tscn
+player.gd::GDScript::5706576239154063313::1770461761::0::1::::<>CharacterBody3D<><>0<>0<><>::
+::res://Asset/::1770470100
+::res://Asset/Farm Buildings by Quaternius/::1770462657
+Preview.png::CompressedTexture2D::7322214144544916341::1537893212::1770462657::1::::<><><>0<>0<>5b496e209c016bee73a76499a27f816e<>res://.godot/imported/Preview.png-6f36c9c90fc5ce103347c462a1cb1307.ctex::
+::res://Asset/Farm Buildings by Quaternius/Blend/::1537892006
+::res://Asset/Farm Buildings by Quaternius/FBX/::1770462658
+Barn.fbx::PackedScene::2830856860705986246::1537891332::1770462658::1::::<><><>0<>0<>f8b0414ad974cbb14c7e200925b7e196<>res://.godot/imported/Barn.fbx-643743a69b7f9ae86045cdae9f0be21a.scn::
+BigBarn.fbx::PackedScene::939088816032684256::1537891688::1770462658::1::::<><><>0<>0<>0f72256c70e886bfdcd4235ab2a4f0c9<>res://.godot/imported/BigBarn.fbx-191a604a0d74cbb614b2604265caf579.scn::
+ChickenCoop.fbx::PackedScene::6657643974334526852::1537890160::1770462658::1::::<><><>0<>0<>754e29468d05c58722b5563728054652<>res://.godot/imported/ChickenCoop.fbx-66d5e2a1b0f4905aca6cb14863b979c3.scn::
+Fence2.fbx::PackedScene::1135631178193609580::1537890660::1770462658::1::::<><><>0<>0<>a99b9d201bb63db5004224761daec818<>res://.godot/imported/Fence2.fbx-37017974d777129ef715f9e83dc98ef1.scn::
+Fence.fbx::PackedScene::3075928108594133402::1537890622::1770462658::1::::<><><>0<>0<>9ef97d60a86b9009a9f8d14965e7169a<>res://.godot/imported/Fence.fbx-687c6cea718c9b9061ae9ed1fb2abe8e.scn::
+OpenBarn.fbx::PackedScene::2866543522276637773::1537891836::1770462658::1::::<><><>0<>0<>9478cb9cc4fbdf77c8fea1d9a8566877<>res://.godot/imported/OpenBarn.fbx-dd654eefe2ebf6f8e4f028600c40457c.scn::
+Silo.fbx::PackedScene::416102752236006930::1537890096::1770462658::1::::<><><>0<>0<>59042735899716ead46fc43fd72ba639<>res://.godot/imported/Silo.fbx-37b69642954b66a3f380d68b25f5f83a.scn::
+Silo_House.fbx::PackedScene::5447812042065938750::1537891982::1770462658::1::::<><><>0<>0<>ac03931023f82d746b258a714a1f6810<>res://.godot/imported/Silo_House.fbx-c074b5639ee4b5515d380785a8989cdf.scn::
+SmallBarn.fbx::PackedScene::6734390049543728155::1537891608::1770462658::1::::<><><>0<>0<>59d589a71e671494ddc78faf1daaabda<>res://.godot/imported/SmallBarn.fbx-046d4d260eb32f4cf92d507f04ddaf08.scn::
+TowerWindmill.fbx::PackedScene::9094334645186832653::1537890010::1770462658::1::::<><><>0<>0<>75d3ada3fe6f275c6f0cc32580303313<>res://.godot/imported/TowerWindmill.fbx-675dc474afea14d5d4fe8b108a8cf88f.scn::
+WaterTower.fbx::PackedScene::1377258060164150697::1537890222::1770462658::1::::<><><>0<>0<>6ef0b1b7f8dbf2d7f58bb066444b4cf5<>res://.godot/imported/WaterTower.fbx-262bfd7859158c1754f695c7afc6ac23.scn::
+Well.fbx::PackedScene::6198164509686934678::1537890480::1770462658::1::::<><><>0<>0<>1b1182c4084f21abf9d746d5b47d7d7d<>res://.godot/imported/Well.fbx-524cb137056ecf500b5f5b947d635fbb.scn::
+Windmill.fbx::PackedScene::44713458120476020::1537890576::1770462657::1::::<><><>0<>0<>28982b3d79ff80f165af5fcdd894e15b<>res://.godot/imported/Windmill.fbx-d77e01a3a9c2da29e51c64b12def914f.scn::
+::res://Asset/Farm Buildings by Quaternius/OBJ/::1770464031
+Barn.obj::Mesh::5847635324303001655::1537891340::1770462657::1::::<><><>0<>0<>2fdfbe6c22e585a657d23642a86c276f<>res://.godot/imported/Barn.obj-5f6cc05253b6ec3b8b18f76431b28c2c.mesh<*>res://.godot/imported/Barn.obj-5f6cc05253b6ec3b8b18f76431b28c2c.mesh::
+BigBarn.obj::Mesh::2538705192712253431::1537891694::1770462657::1::::<><><>0<>0<>353a727626c54ddaad2f661629f56276<>res://.godot/imported/BigBarn.obj-1068ee7188b9cf8a7531a1bfde3e400c.mesh<*>res://.godot/imported/BigBarn.obj-1068ee7188b9cf8a7531a1bfde3e400c.mesh::
+ChickenCoop.obj::Mesh::3666755265844423291::1537890164::1770462657::1::::<><><>0<>0<>78f4f675a83bc28618446a6984128f72<>res://.godot/imported/ChickenCoop.obj-1e774c59348725611473c56c798e3bba.mesh<*>res://.godot/imported/ChickenCoop.obj-1e774c59348725611473c56c798e3bba.mesh::
+Fence2.obj::Mesh::4685766010886363319::1537890664::1770462657::1::::<><><>0<>0<>c3bd7fddfa3449ac0cde396b3f034f09<>res://.godot/imported/Fence2.obj-c7b8ec14a03c655f239c6edbbbb59009.mesh<*>res://.godot/imported/Fence2.obj-c7b8ec14a03c655f239c6edbbbb59009.mesh::
+Fence.obj::Mesh::5593623043817837547::1537890626::1770462657::1::::<><><>0<>0<>3f50a65e951cbfa886374794905c0a4a<>res://.godot/imported/Fence.obj-5ad17c513cec9115c5f481455e06ae7d.mesh<*>res://.godot/imported/Fence.obj-5ad17c513cec9115c5f481455e06ae7d.mesh::
+OpenBarn.obj::Mesh::8016380965473730154::1537891842::1770462657::1::::<><><>0<>0<>8b5fb888a041f1b84f733178c6c0e85c<>res://.godot/imported/OpenBarn.obj-cc4a5aa288c9d19de6f72ca819103902.mesh<*>res://.godot/imported/OpenBarn.obj-cc4a5aa288c9d19de6f72ca819103902.mesh::
+Silo.obj::Mesh::1711831718376350333::1537890100::1770462657::1::::<><><>0<>0<>beb874305fb78b56738a0c2e89688bf5<>res://.godot/imported/Silo.obj-d59dcfbc16b1c6e0f33996b76230b63c.mesh<*>res://.godot/imported/Silo.obj-d59dcfbc16b1c6e0f33996b76230b63c.mesh::
+Silo_House.obj::Mesh::4849228530445816318::1537891976::1770462657::1::::<><><>0<>0<>4968ac341c25e24706d49ad89bce1436<>res://.godot/imported/Silo_House.obj-536191c70941a04cf6d0a315fcaed25a.mesh<*>res://.godot/imported/Silo_House.obj-536191c70941a04cf6d0a315fcaed25a.mesh::
+SmallBarn.obj::Mesh::7464316855161147612::1537891612::1770462657::1::::<><><>0<>0<>bade834940ad1484cad8c58f58595190<>res://.godot/imported/SmallBarn.obj-a6b30a18db2e8a90e446b6f0f1451c29.mesh<*>res://.godot/imported/SmallBarn.obj-a6b30a18db2e8a90e446b6f0f1451c29.mesh::
+TowerWindmill.obj::Mesh::1654214562530298248::1537890018::1770462657::1::::<><><>0<>0<>bd671bb27f5ee5d6db71f42eeb5cc37d<>res://.godot/imported/TowerWindmill.obj-8f3577139188c367ba226fe36ee26ae3.mesh<*>res://.godot/imported/TowerWindmill.obj-8f3577139188c367ba226fe36ee26ae3.mesh::
+WaterTower.obj::Mesh::4935813102433335281::1537890228::1770462657::1::::<><><>0<>0<>d145ea1a71223ea81f861278bfca907e<>res://.godot/imported/WaterTower.obj-af84a7b5b341e6ac08fc9304512749ec.mesh<*>res://.godot/imported/WaterTower.obj-af84a7b5b341e6ac08fc9304512749ec.mesh::
+Well.obj::Mesh::3729778829100024061::1537890490::1770462657::1::::<><><>0<>0<>d5c97ad0bad82ced1d579ae13cbc9fbb<>res://.godot/imported/Well.obj-e801b9a0610f23f6ad89c4f4dbfa689c.mesh<*>res://.godot/imported/Well.obj-e801b9a0610f23f6ad89c4f4dbfa689c.mesh::
+Windmill.obj::Mesh::7304663252746408141::1537890580::1770462657::1::::<><><>0<>0<>07e774db868b84f98dbd9312fdea386d<>res://.godot/imported/Windmill.obj-ced69ca286ad7a6b889895673a38a002.mesh<*>res://.godot/imported/Windmill.obj-ced69ca286ad7a6b889895673a38a002.mesh::
+::res://Asset/LowPoly Environment Pack/::1770470097
+Bush_1.fbx::PackedScene::3372070336890933329::1505306182::1770470104::1::::<><><>0<>0<>4ca4a526e0f8ea28684efe091279dbfb<>res://.godot/imported/Bush_1.fbx-d1f74561cefd8297fc5da64006040429.scn::
+Bush_2.fbx::PackedScene::1124379879142166653::1505306182::1770470104::1::::<><><>0<>0<>a358d8f4bad837f8b4bae6270717fe61<>res://.godot/imported/Bush_2.fbx-bbadd0b6d12d0b7be9632e806982d2d4.scn::
+Bush_3.fbx::PackedScene::8659797998396539650::1505306183::1770470104::1::::<><><>0<>0<>b8443e2d6fd354ba3c6637117fc73458<>res://.godot/imported/Bush_3.fbx-76d9de27ebfddac21ede597690d995b1.scn::
+Environment_1.fbx::PackedScene::2256982664953768071::1505306187::1770470104::1::::<><><>0<>0<>a4f2eb29b044e4a687fed2a22e31cbf3<>res://.godot/imported/Environment_1.fbx-f5760407f653d098ff5243a2fa8ddfd3.scn::
+Grass_1.fbx::PackedScene::4083590328700205170::1505306177::1770470104::1::::<><><>0<>0<>dab1d8771150856271edde7909ee516f<>res://.godot/imported/Grass_1.fbx-8f18ed5222acb06a6d6526e7f172969e.scn::
+Grass_2.fbx::PackedScene::2651057707350207723::1505306181::1770470104::1::::<><><>0<>0<>63562c3d0648b09ef41d8b044ad623f0<>res://.godot/imported/Grass_2.fbx-b32481fdc652ea06a6de20326927b8a2.scn::
+Log_1.fbx::PackedScene::4181018074997534004::1505306183::1770470103::1::::<><><>0<>0<>362ceca44c1b5e4f9c43270f035d5f68<>res://.godot/imported/Log_1.fbx-fbb1778e916e199c172d3692530a3f89.scn::
+Log_2.fbx::PackedScene::8367855312611681455::1505306183::1770470103::1::::<><><>0<>0<>214fadcb3a17b09eeab3341c78713221<>res://.godot/imported/Log_2.fbx-6c37b807ede0794a5dda4e27d2cbca09.scn::
+Log_3.fbx::PackedScene::4990610919494707184::1505306181::1770470103::1::::<><><>0<>0<>d3aa05c7008bff88fcfdaf5e6f17a956<>res://.godot/imported/Log_3.fbx-8bf5865e89b0734b042c8cadf8458952.scn::
+Mounting_1.fbx::PackedScene::5554058657010844839::1505306186::1770470103::1::::<><><>0<>0<>41a0fdf3b67d05f2b3e8b28480aa2b5e<>res://.godot/imported/Mounting_1.fbx-86a3f1812db1fa287acedfeeef57956f.scn::
+Mounting_2.fbx::PackedScene::4949685739511150246::1505306186::1770470103::1::::<><><>0<>0<>be9572e7d574158cbfb82643b7c6983a<>res://.godot/imported/Mounting_2.fbx-c667f3d5f6b87764d642c31dabc0417d.scn::
+Mounting_3.fbx::PackedScene::2699507633094286580::1505306185::1770470103::1::::<><><>0<>0<>dd4ae8df47a08a43608a7471d4a3a03b<>res://.godot/imported/Mounting_3.fbx-73e36ad87740bb5ac2101b3d242da456.scn::
+Plant_1.fbx::PackedScene::6207137305915906994::1505306180::1770470103::1::::<><><>0<>0<>7c0f7bafab1a2f2a086ef206157262ef<>res://.godot/imported/Plant_1.fbx-8d494d6c26d370afde6a21268b48a5d0.scn::
+Plant_2.fbx::PackedScene::298899707497606783::1505306181::1770470103::1::::<><><>0<>0<>52a25a556a8c8b2d87bfb1cd9b90d26f<>res://.godot/imported/Plant_2.fbx-cd92461b8c98a40b15150f08052fb685.scn::
+Plant_3.fbx::PackedScene::3993018933148477903::1505306182::1770470103::1::::<><><>0<>0<>b03fff81643a1bd11441252d1eae2fee<>res://.godot/imported/Plant_3.fbx-6a27c31530ba6c89fa2390053cca3602.scn::
+Plant_4.fbx::PackedScene::6003794144244830146::1505306179::1770470103::1::::<><><>0<>0<>06aaf7332dba5e53e8055d4e1752b60f<>res://.godot/imported/Plant_4.fbx-17d866f3ef309d4e845a1192eaff012e.scn::
+Plant_5.fbx::PackedScene::2170319677283713324::1505306184::1770470103::1::::<><><>0<>0<>dffa1574181da1d3f0540827f8ab91ec<>res://.godot/imported/Plant_5.fbx-9fe2449f5d738e8aad0fafe8c3cf56bb.scn::
+Plant_6.fbx::PackedScene::1272264372067355323::1505306180::1770470103::1::::<><><>0<>0<>52a388e855d575e8f1f7938762acf89b<>res://.godot/imported/Plant_6.fbx-7340b417904e1bbf044d70b4ee30bd1c.scn::
+Plant_7.fbx::PackedScene::5345541964766345250::1505306180::1770470103::1::::<><><>0<>0<>b4df53118d845fcf401c7149e9562da9<>res://.godot/imported/Plant_7.fbx-13180fad2d7abaa06670ac66fd585e07.scn::
+Rock_1.fbx::PackedScene::6720412771057066600::1505306178::1770470102::1::::<><><>0<>0<>f5f968d4ac86e33be956b6dc2d8d7ba4<>res://.godot/imported/Rock_1.fbx-f03694fb2f40a6f668591b36f2dda523.scn::
+Rock_2.fbx::PackedScene::6566232033180718483::1505306178::1770470102::1::::<><><>0<>0<>9eb004ec7b57214dc62eb5e4f1f8ebb6<>res://.godot/imported/Rock_2.fbx-fb6e1b589afafd1f388bbb6cf9bbf19d.scn::
+Rock_3.fbx::PackedScene::6948303640483567245::1505306177::1770470102::1::::<><><>0<>0<>3124fc877253f2fea64b78e40c9c5d46<>res://.godot/imported/Rock_3.fbx-60fd76ce33f89d88afd6b42eda83d06d.scn::
+Rock_4.fbx::PackedScene::1762262781168215276::1505306179::1770470102::1::::<><><>0<>0<>11a7168e21ffdc35d1d4256d16210f92<>res://.godot/imported/Rock_4.fbx-e6efe5211c746339aff436e6b10c8586.scn::
+Rock_5.fbx::PackedScene::8993074475992460105::1505306179::1770470102::1::::<><><>0<>0<>dc1d0dc82646839650196c7285f6c673<>res://.godot/imported/Rock_5.fbx-6270de067705735fd1b322d43ba84de4.scn::
+Rock_6.fbx::PackedScene::337597563823270461::1505306178::1770470102::1::::<><><>0<>0<>fe4841637c29f4de34ae28484a6f7e20<>res://.godot/imported/Rock_6.fbx-a9b691a28feed451b556ec85b3af8b37.scn::
+Stone_1.fbx::PackedScene::7912891997462964820::1505306177::1770470102::1::::<><><>0<>0<>37adf0cbba14dfe5d96504a50f72378d<>res://.godot/imported/Stone_1.fbx-0504e9fe239e2a5164d6dca4ad4ed2de.scn::
+Terrain_1.fbx::PackedScene::4768762042161894965::1505306182::1770470102::1::::<><><>0<>0<>801a2db2181103fc4d6bfa003005658a<>res://.godot/imported/Terrain_1.fbx-2b39ce2adf745305aa2be8cbbc9ca1ef.scn::
+Terrain_2.fbx::PackedScene::8564594686073116763::1505306184::1770470102::1::::<><><>0<>0<>6a17cfba2f6d900c7091072c51a05143<>res://.godot/imported/Terrain_2.fbx-73a462d1080aac36e2f9f41624fcad41.scn::
+Tree_1.fbx::PackedScene::1379188974089563034::1505306184::1770470102::1::::<><><>0<>0<>a4e7c4a44f8a5fe1ead5251d7dcac895<>res://.godot/imported/Tree_1.fbx-56514e08dac6f8f10151e720361d5a1f.scn::
+Tree_2.fbx::PackedScene::2703549524011159382::1505306185::1770470102::1::::<><><>0<>0<>23e8832b7fc0868e0c35d4044be4220c<>res://.godot/imported/Tree_2.fbx-25f3ac412665087962e78b0ccc16b3f1.scn::
+Tree_3.fbx::PackedScene::6825356264780617082::1505306185::1770470102::1::::<><><>0<>0<>3ede2c51f5bc5693016b30b7b3a896bf<>res://.godot/imported/Tree_3.fbx-1e285b048f1867fd4690542936919f83.scn::
+::res://Models/::1770467266
+BarnClose.tscn::PackedScene::4434764621512346558::1770463857::0::1::::<><><>0<>0<><>::uid://cpkvx1s3jae2b::::res://Asset/Farm Buildings by Quaternius/OBJ/Barn.obj
+chicken_coop.tscn::PackedScene::3605349409259531399::1770464346::0::1::::<><><>0<>0<><>::
+big_barn.tscn::PackedScene::2986120211542292530::1770464922::0::1::::<><><>0<>0<><>::
+fence.tscn::PackedScene::7376921195167399452::1770465069::0::1::::<><><>0<>0<><>::
+tower_windmill.tscn::PackedScene::6343127069297900820::1770467266::0::1::::<><><>0<>0<><>::
+water_tower.tscn::PackedScene::5291108930009125903::1770467153::0::1::::<><><>0<>0<><>::
+silo.tscn::PackedScene::5328524704817954130::1770466983::0::1::::<><><>0<>0<><>::
+silo_house.tscn::PackedScene::8862897354613619841::1770466937::0::1::::<><><>0<>0<><>::
+::res://shader/::1770465963
+decorative-graphic-ancient-frame-grain.jpg::CompressedTexture2D::1040075732555595586::1770460738::1770460887::1::::<><><>0<>0<>661c18390de70d3e6116dd07e6d714f8<>res://.godot/imported/decorative-graphic-ancient-frame-grain.jpg-97f93a0300096c311f129fd8b64cb113.s3tc.ctex::
+::res://shader/earth-texture/::1770461092
+696.jpg::CompressedTexture2D::6260610779359517197::1481808940::1770461092::1::::<><><>0<>0<>bf11c3eb96db91fdf392516a19162959<>res://.godot/imported/696.jpg-c987b9f54aaf71a12f4fc023991ecf97.s3tc.ctex::
+License free.txt::TextFile::-1::1482939238::0::1::::<><><>0<>0<><>::
+License premium.txt::TextFile::-1::1482938950::0::1::::<><><>0<>0<><>::
+::res://shader/seamless-textured-grass-natural-grass-pattern/::1770465991
+Cartoon_green_texture_grass.jpg::CompressedTexture2D::548051011761082531::1609661344::1770465991::1::::<><><>0<>0<>a6b3462ea1310a0c832ce792a6c13103<>res://.godot/imported/Cartoon_green_texture_grass.jpg-b4fc02160928fb3129351f5bccf4658d.s3tc.ctex::

@@ -1,0 +1,26 @@
+res://main.tscn
+res://Models/BarnClose.tscn
+res://Models/chicken_coop.tscn
+res://Models/big_barn.tscn
+res://Models/fence.tscn
+res://Models/silo_house.tscn
+res://Models/silo.tscn
+res://Models/water_tower.tscn
+res://Models/tower_windmill.tscn
+res://Asset/Stylized Nature MegaKit[Standard]/glTF/PathRocks_Diffuse.png
+res://Asset/Stylized Nature MegaKit[Standard]/glTF/Bark_TwistedTree_Normal.png
+res://Asset/Stylized Nature MegaKit[Standard]/glTF/Bark_TwistedTree.png
+res://Asset/Stylized Nature MegaKit[Standard]/glTF/Leaves_TwistedTree_C.png
+res://Asset/Stylized Nature MegaKit[Standard]/glTF/Mushrooms.png
+res://Asset/Stylized Nature MegaKit[Standard]/glTF/Grass.png
+res://Asset/Stylized Nature MegaKit[Standard]/glTF/Rocks_Diffuse.png
+res://Asset/Stylized Nature MegaKit[Standard]/glTF/Leaves.png
+res://Asset/Stylized Nature MegaKit[Standard]/glTF/Bark_NormalTree_Normal.png
+res://Asset/Stylized Nature MegaKit[Standard]/glTF/Bark_NormalTree.png
+res://Asset/Stylized Nature MegaKit[Standard]/glTF/Leaf_Pine_C.png
+res://Asset/Stylized Nature MegaKit[Standard]/glTF/Flowers.png
+res://Asset/Stylized Nature MegaKit[Standard]/glTF/Bark_DeadTree_Normal.png
+res://Asset/Stylized Nature MegaKit[Standard]/glTF/Bark_DeadTree.png
+res://Asset/Stylized Nature MegaKit[Standard]/glTF/Leaves_NormalTree_C.png
+res://Models/mounting_3.tscn
+res://Models/grass.tscn

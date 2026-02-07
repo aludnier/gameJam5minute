@@ -1,0 +1,1127 @@
+[gd_scene format=4 uid="uid://jvfdjf2y44f7"]
+
+[ext_resource type="PackedScene" uid="uid://bd1gsejtw67hf" path="res://Asset/LowPoly Environment Pack/Grass_2.fbx" id="2_p3dvq"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_itu7j"]
+resource_name = "Green.2"
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.262415, 0.73623157, 0.17575271, 1)
+emission_enabled = true
+emission = Color(0.2933426, 0.81332594, 0.19823633, 1)
+emission_energy_multiplier = 0.0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_2vi8r"]
+_surfaces = [{
+"aabb": AABB(-0.1157714, -0.014424621, -0.20240043, 0.22407351, 0.55994, 0.42846578),
+"format": 34359742465,
+"index_count": 252,
+"index_data": PackedByteArray("CgABAAsADAALAAEACwANAAoADQALAAkACQALAAwACQAHAA0ADgANAAcACgANAA4ABwAJAAgADAAIAAkACAAGAAcABwAGAA4ADgAGAAgACAAMAA4ADgAPAAoADwAOAAwAAgAKAA8ADwADAAIACgACAAAAAAACAAMAAAABAAoABAADAA8AAwAEAAAADAAFAA8ADwAFAAQAAQAFAAwAAAAEAAUABQABAAAAEAARABIAEwASABEAFAASABMAEQAVABMAFQARABYAFgARABAAFwATABUAEwAXABQAFQAYABcAFgAYABUAFwAYABYAFgAUABcAGQASABQAEgAZABAAFAAWABoAEAAaABYAFAAbABkAGgAbABQAGQAbABwAHAAbABoAHAAdABkAEAAZAB0AGgAeABwAHgAaABAAHQAcAB4AEAAfAB4AHgAfAB0AHQAfABAAIAAhACIAIgAjACAAJAAjACIAJQAjACQAIAAjACUAIgAmACQAJwAkACYAJAAnACUAJgAiACgAKAAiACEAJgApACcAKAApACYAJwApACgAKAAlACcAJQAqACAAKgAlACgAKAArACoAIQArACgAIAAqACwALAAqACsAIQAgAC0ALAAtACAALQAuACEALgAtACwALwArACEAIQAuAC8AKwAvACwALAAvAC4A"),
+"lods": [0.171649, PackedByteArray("AAABAAIAAAACAAMAAwAEAAAABQABAAAAAAAEAAUABAADAAYABgADAAIABgAFAAQABgACAAcACAAFAAYACAAGAAcACQABAAUABQAIAAkAAgABAAkABwAJAAgACQAHAAIA")],
+"name": "Green.2",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 48,
+"vertex_data": PackedByteArray("WlJsPeWmCz+EiKM9wGPgN2XavD6ojfQ9WlJsPeWmCz//UZ+6P/eLPR/DCj/MUZ+6QfeLPR/DCj+EiKM96Q40PEWuuz6sjfQ9llAFPdmKI7xEyr+9Ad6wPGGESbxEyr+9llAFPeSKI7wjFEA9AN6wPG2ESbwjFEA9SmHgN2XavD7fE5K7/WiZvEGONj7cS6o9jOX2u6z6Nj7fS6o9AWmZvEGONj6D60i9bL/3u6xxNz6D60i9RVI0PHu4uz7XE5K7hNvAPfH46D2NlBe+Y1WQPem4Tj6mvSK+feiVPa0TUD7fRY+9ET+APa6mlz5zThW+JF+sPV9dUj47B5C9/XF5PRY5lz7O5E6+UfemPQqMUD48HSO+gRWXPeYmmD6zqxW+bY+TPU25lz4PQk++KfDGPXLt6z0b01C9j7/XPWw86j2a8Be+gM3dPbKa7T0IRlK9Kge5PZuwVrzSx7u9+kuiPQSyPrw0Ibu9D3azPT9VbLwg3ji+3bqcPahWVLzRiji+P0e6vdSmPD779EQ+qel+vdSmPD6G4gU+91CCvar1vD2MLCQ+1BjBvan1vD2sfWc+CMLYvQ5zSbzJg0s+ZNvVvQEpvj2PpmI+vASWvQxzSbz98wM+jhntvYakI7yhxUY+cxaXvSThvT3DVB8+QVyqvYOkI7ysa/49QL/OvYmnPj5BL0A+FH6TvTy1Pz6fNgE+OJDAvF2TmT7OoUo+gKB2vMNmlj4kq04+oFx1O8Nmlj4dZCU+kVGau12TmT7IWiE+")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_lpkcv"]
+resource_name = "Plane_000"
+_surfaces = [{
+"aabb": AABB(-0.1157714, -0.014424621, -0.20240043, 0.22407351, 0.55994, 0.42846578),
+"attribute_data": PackedByteArray("w4uQPgAAgD977EU+jJY8P0+kxD6HxHo/IqZUPrAz+z1QpMQ+8KGyPaUrvD2IZMI9cuxFPtgA7D177EU+AACAPwAAAADUibc+pjaPPI37dj8GXgI/x8wAPwZeAj9E1o8+R+gFP1jjjz5H6AU/UtMAPwPETj+ICuA9RDxLPwAAgD+KSks/0DDWPQPETj/75n4/ES8NP241wD4RLw0/UtMAP3KKCT/nzQA/c4oJP5oqwD6z2lU/gsPwPgJMUj/uJfA+mg9ePyCxMj7Qi2E/vM01PrPaVT+Cw/A+0IthP3+Lfj89Gl4/AACAPwJMUj/uJfA+iJCyPtSXND8tkEs+Ep7cPtu9uj4gjcs+e+xFPoyWPD+IkLI+1Jc0P9u9uj4gjcs+LZBLPhKe3D78rh4+GF/HPknJLj4kczE/VUSrOxYmKT/8rh4+GF/HPgAAAADUibc+SckuPiRzMT9VRKs7FiYpP6BUUj9z1Dw/A8ROP4aRPT+eUj4/KO7RPuW9Oj8wntA+9txAPxTlNj95Qj0/LHo3P6BUUj9z1Dw/A8ROP4aRPT+eUj4/KO7RPvbcQD8U5TY/eUI9Pyx6Nz/lvTo/MJ7QPjHRAT808zQ/FwUDP+j8WD8ZSsw+QAZXP1CkxD7uzjI/cRX5PkTCfj8ZSsw+QAZXPxcFAz/o/Fg/QcsOPwAAgD8x0QE/NPM0P1CkxD7uzjI/COvjPlLTAD9Cyw4/RskCP2dLEj/MTyg/TwwvP56+Jj9MJi4/GPFKP0LLDj+7xEw/y5IoP9FbAT/lvTo/u0AAP08MLz+eviY/Z0sSP8xPKD9MJi4/GPFKP+S9Oj/IQH4/AgoePwAAgD9Cyw4/u8RMP3KKCT8IzwA/R+gFP1LTAD9I6AU/hrq5PnKKCT/ysbk+r/N3PwKbqT7imHE/JDM/PnYydT/YSz4+CoZ7P9oPqD7EdXw/AACAPynucj++Zks/wYh2P+9MSz///38/YBF/P0foBT+uW4w+BFkJP/4OjD4EWQk/QGW5PkfoBT/ysbk+cFh5P4hcJz/RZXw/+tYDP///fz9p4gM/Oe58Py67Jz+v83c/ApupPgqGez/aD6g+D+V/P+q7AT+RS3w/eAUCPxtffD9Avns8D+V/P2C5kjx2MnU/2Es+PuKYcT8kMz8+cFh5P4hcJz857nw/LrsnP8GIdj/vTEs/Ke5yP75mSz9q+to+YNFEPgZeAj8E5UQ+XjXxPi7LrD5QpMQ+ssCsPovg2T4gEJI8XDT1PuB2kjwGXgI/BOVEPmr62j5g0UQ+klvVPr/NAD9QpMQ+ssCsPl418T4uy6w+Bl4CP1LTAD+nBRo/4o6lPkLLDj9EdDQ+eKwkP+CdMj7Sfi4/mqGlPtJ+Lj+aoaU+8JklP1QBAD9zLxg/u0AAP6cFGj/ijqU+eKwkP+CdMj5Cyw4/RHQ0Pog8Fz+AemA80n4uP0D/RDxyigk/5LuBPj4kDT/ouYE+PSQNP6AowD5zigk/mirAPr+RaT8cuio+uexsP/ALLz70/WQ/StObPtCLYT/YuZs+vaFrPzx/Wz9HIW8/Wc9aPynucj969n8/d1hvPwAAgD8GXgI/RNaPPgZeAj+Uslc+BdQFP9h8Vz4F1AU/ZLuPPuR+bz94BQI/Ke5yP06LAz++HmU/BCY1P9CLYT/+UTU/o1JuP3gFAj/Qi2E/2LmbPvT9ZD9K05s+45hxPxSoAD+/kWk/HLoqPnQobj8AAIAz4phxPwCwqTq57Gw/8AsvPr2haz88f1s/0IthP/5RNT++HmU/BCY1P0chbz9Zz1o/"),
+"format": 34359742487,
+"index_count": 252,
+"index_data": PackedByteArray("HgABAB8AHwAgAB4AAAAhACIAIgACAAAAIwAkAAMAAwAEACMAJQAmACcAJwAIACUABQAGACgAKAApAAUAKgAHAAkACQArACoACgALAAwADAANAAoALAAtAB0AHQAaACwALgAvABAAEAAOAC4AEgATABQAFAAVABIAMAARAA8ADwAxADAAFgAXABgAGAAZABYAMgAbABwAHAAzADIANAA1ADYANgA3ADQAOAA5ADoAOgA7ADgAPAA9AD4APgA/ADwAQABBAEIAQgBDAEAARABFAEYARgBHAEQASABJAEoASgBLAEgATABNAE4ATgBPAEwAUABRAFIAUgBTAFAAVABVAFYAVgBXAFQAWABZAFoAWgBbAFgAXABdAF4AXgBfAFwAYABhAGIAYgBjAGAAZABlAGYAZgBnAGQAaABpAGoAagBrAGgAbABtAG4AbgBvAGwAcABxAHIAcgBzAHAAdAB1AHYAdgB3AHQAeAB5AHoAegB7AHgAfAB9AH4AfgB/AHwAgACBAIIAggCDAIAAhACFAIYAhgCHAIQAiACJAIoAigCLAIgAjACNAI4AjgCPAIwAkACRAJIAkgCTAJAAlACVAJYAlgCXAJQAmACZAJoAmgCbAJgAnACdAJ4AngCfAJwAoAChAKIAogCjAKAApAClAKYApgCnAKQA"),
+"lods": [0.171649, PackedByteArray("AAABAAIAAgABAAMAAwAEAAIABQAGAAcABwAIAAUACQAIAAcACgALAAwADAANAAoADgAPABAADgARAA8AEgATABQAFAAVABIAFgAXABgAGAAZABYAGgAbABwAHAAdABoA")],
+"material": SubResource("StandardMaterial3D_itu7j"),
+"name": "Green.2",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 168,
+"vertex_data": PackedByteArray("WlJsPeWmCz+EiKM9wGPgN2XavD6ojfQ9WlJsPeWmCz//UZ+6AN6wPG2ESbwjFEA9Ad6wPGGESbxEyr+9QfeLPR/DCj+EiKM9P/eLPR/DCj/MUZ+6llAFPdmKI7xEyr+96Q40PEWuuz6sjfQ9llAFPeSKI7wjFEA9llAFPeSKI7wjFEA9llAFPdmKI7xEyr+9Ad6wPGGESbxEyr+9AN6wPG2ESbwjFEA9llAFPdmKI7xEyr+9WlJsPeWmCz//UZ+6Ad6wPGGESbxEyr+9P/eLPR/DCj/MUZ+6P/eLPR/DCj/MUZ+6QfeLPR/DCj+EiKM9WlJsPeWmCz+EiKM9WlJsPeWmCz//UZ+66Q40PEWuuz6sjfQ9wGPgN2XavD6ojfQ9WlJsPeWmCz+EiKM9QfeLPR/DCj+EiKM96Q40PEWuuz6sjfQ9llAFPeSKI7wjFEA9AN6wPG2ESbwjFEA9wGPgN2XavD6ojfQ9SmHgN2XavD7fE5K7/WiZvEGONj7cS6o9AWmZvEGONj6D60i9wGPgN2XavD6ojfQ9SmHgN2XavD7fE5K7AWmZvEGONj6D60i9/WiZvEGONj7cS6o9RVI0PHu4uz7XE5K7bL/3u6xxNz6D60i9jOX2u6z6Nj7fS6o9RVI0PHu4uz7XE5K76Q40PEWuuz6sjfQ9bL/3u6xxNz6D60i9jOX2u6z6Nj7fS6o9jOX2u6z6Nj7fS6o9/WiZvEGONj7cS6o9bL/3u6xxNz6D60i9AWmZvEGONj6D60i9RVI0PHu4uz7XE5K7SmHgN2XavD7fE5K7jOX2u6z6Nj7fS6o9/WiZvEGONj7cS6o9bL/3u6xxNz6D60i9RVI0PHu4uz7XE5K7SmHgN2XavD7fE5K7AWmZvEGONj6D60i9hNvAPfH46D2NlBe+Y1WQPem4Tj6mvSK+feiVPa0TUD7fRY+9KfDGPXLt6z0b01C9ET+APa6mlz5zThW+feiVPa0TUD7fRY+9Y1WQPem4Tj6mvSK+/XF5PRY5lz7O5E6+hNvAPfH46D2NlBe+KfDGPXLt6z0b01C9+kuiPQSyPrw0Ibu93bqcPahWVLzRiji+JF+sPV9dUj47B5C9UfemPQqMUD48HSO+j7/XPWw86j2a8Be+gM3dPbKa7T0IRlK9gRWXPeYmmD6zqxW+bY+TPU25lz4PQk++UfemPQqMUD48HSO+JF+sPV9dUj47B5C9j7/XPWw86j2a8Be+D3azPT9VbLwg3ji+Kge5PZuwVrzSx7u9gM3dPbKa7T0IRlK9D3azPT9VbLwg3ji+3bqcPahWVLzRiji++kuiPQSyPrw0Ibu9Kge5PZuwVrzSx7u9JF+sPV9dUj47B5C9gM3dPbKa7T0IRlK9KfDGPXLt6z0b01C9feiVPa0TUD7fRY+9D3azPT9VbLwg3ji+j7/XPWw86j2a8Be+hNvAPfH46D2NlBe+3bqcPahWVLzRiji+gRWXPeYmmD6zqxW+ET+APa6mlz5zThW+/XF5PRY5lz7O5E6+bY+TPU25lz4PQk++UfemPQqMUD48HSO+bY+TPU25lz4PQk++/XF5PRY5lz7O5E6+Y1WQPem4Tj6mvSK+JF+sPV9dUj47B5C9feiVPa0TUD7fRY+9ET+APa6mlz5zThW+gRWXPeYmmD6zqxW+Kge5PZuwVrzSx7u9+kuiPQSyPrw0Ibu9KfDGPXLt6z0b01C9gM3dPbKa7T0IRlK9UfemPQqMUD48HSO+Y1WQPem4Tj6mvSK+hNvAPfH46D2NlBe+j7/XPWw86j2a8Be+P0e6vdSmPD779EQ+qel+vdSmPD6G4gU+91CCvar1vD2MLCQ+1BjBvan1vD2sfWc+gKB2vMNmlj4kq04+oFx1O8Nmlj4dZCU+qel+vdSmPD6G4gU+P0e6vdSmPD779EQ+CMLYvQ5zSbzJg0s+1BjBvan1vD2sfWc+91CCvar1vD2MLCQ+vASWvQxzSbz98wM+QL/OvYmnPj5BL0A+ZNvVvQEpvj2PpmI+cxaXvSThvT3DVB8+FH6TvTy1Pz6fNgE+FH6TvTy1Pz6fNgE+kVGau12TmT7IWiE+OJDAvF2TmT7OoUo+QL/OvYmnPj5BL0A+cxaXvSThvT3DVB8+ZNvVvQEpvj2PpmI+jhntvYakI7yhxUY+QVyqvYOkI7ysa/49jhntvYakI7yhxUY+CMLYvQ5zSbzJg0s+vASWvQxzSbz98wM+QVyqvYOkI7ysa/49cxaXvSThvT3DVB8+91CCvar1vD2MLCQ+qel+vdSmPD6G4gU+FH6TvTy1Pz6fNgE+ZNvVvQEpvj2PpmI+1BjBvan1vD2sfWc+CMLYvQ5zSbzJg0s+jhntvYakI7yhxUY+OJDAvF2TmT7OoUo+kVGau12TmT7IWiE+oFx1O8Nmlj4dZCU+gKB2vMNmlj4kq04+OJDAvF2TmT7OoUo+gKB2vMNmlj4kq04+P0e6vdSmPD779EQ+QL/OvYmnPj5BL0A+kVGau12TmT7IWiE+FH6TvTy1Pz6fNgE+qel+vdSmPD6G4gU+oFx1O8Nmlj4dZCU+cxaXvSThvT3DVB8+QVyqvYOkI7ysa/49vASWvQxzSbz98wM+91CCvar1vD2MLCQ+ZNvVvQEpvj2PpmI+QL/OvYmnPj5BL0A+P0e6vdSmPD779EQ+1BjBvan1vD2sfWc+gB9/n9juMv13C3eLZe4h/4Aff5/Y7jL9WRalaTYRLP5ZFqVpNhEs/nfgdmAH7zn9d+B2YAfvOf2R6WaWMBEv/n70d3SE7iX/kelmli8RL/5YllkWPhaStFiWWRY+FpK0WJZZFj4WkrRYllkWPhaStCQXqvya+JG53v1v/0732bskF6r8nPiSud79b/9O99i7f59+4JzgEbB/n37gnOARsH+ffuCc4BGwf59+4JzgEbCXhfaUYPDHtpeF9pRi8Mi2l4X2lCzwtLaXhfaUKvCztkp+1Gu68Wq4boJGbCHvx7RugkZsLu/PtEp+1Gui8Vu4dwt3i2XuIf93C3eLZe4h/3cLd4tl7iH/gB9/n9fuMv2AH3+f2O4y/VkWpWk2ESz+WRalaTYRLP5+9Hd0hO4l/370d3SF7iX/fvR3dITuJf934HZgB+85/XfgdmAI7zn9kelmli8RL/6R6WaWLhEv/kp+1Gt37wy3Sn7Ua2PvALckF6r83/i6uSQXqvzi+Ly53v1v/1T33Lve/W//VPfcu26CRmyI8Ji1boJGbJTwn7X154n+cveRu/Xnif4g+P679eeJ/hn4+rv154n+bPeNu3gd7WUrCPOAeB3tZSsI84B4He1lKwjzgHgd7WUrCPOArA34dR0IgYGsDfh1HQiBgawN+HUdCIGBrA34dR0IgYG1EYyODAgvgrURjI4MCC+CtRGMjgwIL4K1EYyODAgvghnmV52KBxKBGeZXnYoHEoEZ5ledigcSgRnmV52KBxKBAPabjXgHh4EA9puNeAeHgQD2m415B4eBAPabjXkHh4GZ8XVuYQcigpnxdW5iByKCmfF1bmEHIoKZ8XVuYQcigmBxuRB78fa2YHG5EHvx9rZgcbkQe/H2tmBxuRB78fa2UICTlskELb5QgJOWZARXvlCAk5ZrBFS+UICTltEEKr6QGfT9QAlpu5AZ9P29CMO7kBn0/cMIvruQGfT9SAlku1R0vvVaCry6VHS+9VoKvLpUdL71Wgq8ulR0vvVaCry6TdgjAusI7rtN2CMCUQshu03YIwIkCzC7TdgjAr4I/btBesO2hwSVukF6w7ZlBJi6QXrDtpEGaLpBesO2tAZluv+BkWF/Bhi9/4GRYa8G9Lz/gZFhIwOcv/+BkWH1Ar+/Rw4OAhUMlbtHDg4CDwyYu0cODgJfDHS7Rw4OAmUMcbvxz8aK7f+o6/HPxort/6jr8c/Giu3/qOvxz8aK7f+o6y+6UlXt/6PrL7pSVe3/o+svulJV7f+j6y+6UlXt/6PrWct9bu3/putZy31u7f+m61nLfW7t/6brWct9bu3/putiCg1QsP7S62IKDVCo/tTrYgoNUK3+0+tiCg1Qtv7R62UqbMW8/qzrZSpsxYH+p+tlKmzFlf6o62UqbMXL/q3rnBG5tK7+vuucEbm0rf6+65wRubSu/r3rnBG5tK/+vesDZBUTZ8s9twNkFRNnyz23A2QVE2fLPbcDZBUTZ8s9tyHoTx7xxGG0IehPHtzEVrQh6E8eGsb/tCHoTx4uxgq1ulpdcEjLTra6Wl1wPctEtrpaXXDny+W2ulpdcPTL8LbwqPbDnbm7qvCo9sOdubuq8Kj2w525u6rwqPbDnbm7qk9gjY6WyzC2T2CNjorLKbZPYI2Oasyttk9gjY50zLO2/v9K17rHlrT+/0rXuseWtP7/Ste6x5a0/v9K17rHlrRI7X3bv8litEjtfdv9yaC0SO192/jJnLRI7X3bu8letDNi/Jq3yYC3M2L8mprJcbczYvyanMlytzNi/Jq5yYG3")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_2vi8r")
+
+[node name="Grass_1" type="StaticBody3D" unique_id=224514111]
+
+[node name="Grass_1" type="MeshInstance3D" parent="." unique_id=1846497455]
+transform = Transform3D(1, 0, 0, 0, 1, 7.54979e-08, 0, -7.54979e-08, 1, 0, 0, 0)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_2" type="MeshInstance3D" parent="." unique_id=970617660]
+transform = Transform3D(0.66900086, -5.6114693e-08, 0.74326164, 0, 1, 7.54979e-08, -0.74326164, -5.050816e-08, 0.66900086, 0.27976918, 0, -0.114867866)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_3" parent="." unique_id=5190689 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.16743112, 0, 0.18273777)
+
+[node name="Grass_4" parent="." unique_id=1591878507 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.2407018, 0, 0.048380315)
+
+[node name="Grass_5" type="MeshInstance3D" parent="." unique_id=81859908]
+transform = Transform3D(0.9997426, 1.7128414e-09, -0.022687286, 0, 1, 7.54979e-08, 0.022687286, -7.547847e-08, 0.9997426, -0.24491513, 0, -0.39426106)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_6" parent="." unique_id=338777592 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0116529465, 0, -0.44384414)
+
+[node name="Grass_7" parent="." unique_id=1359399071 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.17818502, 0, -0.2594214)
+
+[node name="Grass_8" parent="." unique_id=1741680988 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.30686867, 0, -0.41546625)
+
+[node name="Grass_9" parent="." unique_id=378995839 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.46175224, 0, 0.021068513)
+
+[node name="Grass_10" type="MeshInstance3D" parent="." unique_id=1036854800]
+transform = Transform3D(1, 0, 0, 0, 1, 7.54979e-08, 0, -7.54979e-08, 1, 0.46093225, 0, 0.7596632)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_11" type="MeshInstance3D" parent="." unique_id=89739951]
+transform = Transform3D(0.66900086, -5.6114693e-08, 0.74326164, 0, 1, 7.54979e-08, -0.74326164, -5.050816e-08, 0.66900086, 0.74070144, 0, 0.64479536)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_12" parent="." unique_id=766359455 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.6283634, 0, 0.942401)
+
+[node name="Grass_13" parent="." unique_id=1945850387 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.22023046, 0, 0.80804354)
+
+[node name="Grass_14" type="MeshInstance3D" parent="." unique_id=1327007077]
+transform = Transform3D(0.9997426, 1.7128414e-09, -0.022687286, 0, 1, 7.54979e-08, 0.022687286, -7.547847e-08, 0.9997426, 0.21601713, 0, 0.36540216)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_15" parent="." unique_id=1039269438 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.4725852, 0, 0.31581908)
+
+[node name="Grass_16" parent="." unique_id=1767358242 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.28274724, 0, 0.5002418)
+
+[node name="Grass_17" parent="." unique_id=1682856540 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.7678009, 0, 0.34419698)
+
+[node name="Grass_18" parent="." unique_id=1833436338 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.9226845, 0, 0.78073174)
+
+[node name="Grass_19" type="MeshInstance3D" parent="." unique_id=644251281]
+transform = Transform3D(1, 0, 0, 0, 1, 7.54979e-08, 0, -7.54979e-08, 1, 0.72327584, 0, -0.06706029)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_20" type="MeshInstance3D" parent="." unique_id=1403496086]
+transform = Transform3D(0.66900086, -5.6114693e-08, 0.74326164, 0, 1, 7.54979e-08, -0.74326164, -5.050816e-08, 0.66900086, 1.0030451, 0, -0.18192816)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_21" parent="." unique_id=635237276 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.89070696, 0, 0.115677476)
+
+[node name="Grass_22" parent="." unique_id=108847495 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.48257405, 0, -0.018679976)
+
+[node name="Grass_23" type="MeshInstance3D" parent="." unique_id=1299861288]
+transform = Transform3D(0.9997426, 1.7128414e-09, -0.022687286, 0, 1, 7.54979e-08, 0.022687286, -7.547847e-08, 0.9997426, 0.4783607, 0, -0.46132135)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_24" parent="." unique_id=155011611 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.7349288, 0, -0.51090443)
+
+[node name="Grass_25" parent="." unique_id=1140798314 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5450908, 0, -0.3264817)
+
+[node name="Grass_26" parent="." unique_id=1389483947 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.0301445, 0, -0.48252654)
+
+[node name="Grass_27" parent="." unique_id=1222254586 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.1850281, 0, -0.04599178)
+
+[node name="Grass_28" type="MeshInstance3D" parent="." unique_id=342962019]
+transform = Transform3D(1, 0, 0, 0, 1, 7.54979e-08, 0, -7.54979e-08, 1, 0.24399674, 0, -0.7397887)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_29" type="MeshInstance3D" parent="." unique_id=2031364586]
+transform = Transform3D(0.66900086, -5.6114693e-08, 0.74326164, 0, 1, 7.54979e-08, -0.74326164, -5.050816e-08, 0.66900086, 0.5237659, 0, -0.8546566)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_30" parent="." unique_id=1779691730 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.41142786, 0, -0.55705094)
+
+[node name="Grass_31" parent="." unique_id=1591889390 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0032949448, 0, -0.6914084)
+
+[node name="Grass_32" type="MeshInstance3D" parent="." unique_id=1465840950]
+transform = Transform3D(0.9997426, 1.7128414e-09, -0.022687286, 0, 1, 7.54979e-08, 0.022687286, -7.547847e-08, 0.9997426, -0.00091838837, 0, -1.1340498)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_33" parent="." unique_id=1236690086 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.2556497, 0, -1.1836329)
+
+[node name="Grass_34" parent="." unique_id=1627569980 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.06581172, 0, -0.9992101)
+
+[node name="Grass_35" parent="." unique_id=1244341132 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5508654, 0, -1.155255)
+
+[node name="Grass_36" parent="." unique_id=1846713096 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.705749, 0, -0.7187202)
+
+[node name="Grass_37" type="MeshInstance3D" parent="." unique_id=968483362]
+transform = Transform3D(0.90335774, -3.2380132e-08, 0.42888784, 0, 1, 7.54979e-08, -0.42888784, -6.8201615e-08, 0.90335774, -1.4100939, 0, 0.41497457)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_38" type="MeshInstance3D" parent="." unique_id=2118138304]
+transform = Transform3D(0.28557122, -7.235398e-08, 0.9583575, 0, 1, 7.54979e-08, -0.9583575, -2.156003e-08, 0.28557122, -1.2066276, 0, 0.19121817)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_39" parent="." unique_id=32392335 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.90335774, 0, 0.42888784, 0, 1, 0, -0.42888784, 0, 0.90335774, -1.1804698, 0, 0.50824296)
+
+[node name="Grass_40" parent="." unique_id=1902939089 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.90335774, 0, 0.42888784, 0, 1, 0, -0.42888784, 0, 0.90335774, -1.606784, 0, 0.5619134)
+
+[node name="Grass_41" type="MeshInstance3D" parent="." unique_id=1316749466]
+transform = Transform3D(0.9128555, -3.0824488e-08, 0.40828273, 0, 1, 7.54979e-08, -0.40828273, -6.891867e-08, 0.9128555, -1.8004336, 0, 0.1638569)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_42" parent="." unique_id=999751462 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.90335774, 0, 0.42888784, 0, 1, 0, -0.42888784, 0, 0.90335774, -1.5899265, 0, 0.009026721)
+
+[node name="Grass_43" parent="." unique_id=415793031 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.90335774, 0, 0.42888784, 0, 1, 0, -0.42888784, 0, 0.90335774, -1.6823213, 0, 0.25704557)
+
+[node name="Grass_44" parent="." unique_id=566254292 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.90335774, 0, 0.42888784, 0, 1, 0, -0.42888784, 0, 0.90335774, -1.3110701, 0, -0.091952324)
+
+[node name="Grass_45" parent="." unique_id=732979178 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.90335774, 0, 0.42888784, 0, 1, 0, -0.42888784, 0, 0.90335774, -0.9839304, 0, 0.23596704)
+
+[node name="Grass_46" type="MeshInstance3D" parent="." unique_id=1239952853]
+transform = Transform3D(0.90335774, -3.2380132e-08, 0.42888784, 0, 1, 7.54979e-08, -0.42888784, -6.8201615e-08, 0.90335774, -0.66789687, 0, 0.90353394)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_47" type="MeshInstance3D" parent="." unique_id=635275450]
+transform = Transform3D(0.28557122, -7.235398e-08, 0.9583575, 0, 1, 7.54979e-08, -0.9583575, -2.156003e-08, 0.28557122, -0.46443063, 0, 0.67977756)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_48" parent="." unique_id=2081245834 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.90335774, 0, 0.42888784, 0, 1, 0, -0.42888784, 0, 0.90335774, -0.43827266, 0, 0.99680233)
+
+[node name="Grass_49" parent="." unique_id=442656512 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.90335774, 0, 0.42888784, 0, 1, 0, -0.42888784, 0, 0.90335774, -0.86458695, 0, 1.0504727)
+
+[node name="Grass_50" type="MeshInstance3D" parent="." unique_id=674705203]
+transform = Transform3D(0.9128555, -3.0824488e-08, 0.40828273, 0, 1, 7.54979e-08, -0.40828273, -6.891867e-08, 0.9128555, -1.0582366, 0, 0.6524163)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_51" parent="." unique_id=1384889729 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.90335774, 0, 0.42888784, 0, 1, 0, -0.42888784, 0, 0.90335774, -0.84772944, 0, 0.49758613)
+
+[node name="Grass_52" parent="." unique_id=1798540468 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.90335774, 0, 0.42888784, 0, 1, 0, -0.42888784, 0, 0.90335774, -0.94012433, 0, 0.745605)
+
+[node name="Grass_53" parent="." unique_id=2069092971 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.90335774, 0, 0.42888784, 0, 1, 0, -0.42888784, 0, 0.90335774, -0.5688731, 0, 0.3966071)
+
+[node name="Grass_54" parent="." unique_id=2007266512 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.90335774, 0, 0.42888784, 0, 1, 0, -0.42888784, 0, 0.90335774, -0.24173337, 0, 0.72452646)
+
+[node name="Grass_55" type="MeshInstance3D" parent="." unique_id=2028510363]
+transform = Transform3D(0.90335774, -3.2380132e-08, 0.42888784, 0, 1, 7.54979e-08, -0.42888784, -6.8201615e-08, 0.90335774, -0.7854784, 0, 0.044190913)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_56" type="MeshInstance3D" parent="." unique_id=394837748]
+transform = Transform3D(0.28557122, -7.235398e-08, 0.9583575, 0, 1, 7.54979e-08, -0.9583575, -2.156003e-08, 0.28557122, -0.5820121, 0, -0.17956549)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_57" parent="." unique_id=1725403515 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.90335774, 0, 0.42888784, 0, 1, 0, -0.42888784, 0, 0.90335774, -0.5558542, 0, 0.13745934)
+
+[node name="Grass_58" parent="." unique_id=597878726 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.90335774, 0, 0.42888784, 0, 1, 0, -0.42888784, 0, 0.90335774, -0.9821685, 0, 0.19112971)
+
+[node name="Grass_59" type="MeshInstance3D" parent="." unique_id=1897781418]
+transform = Transform3D(0.9128555, -3.0824488e-08, 0.40828273, 0, 1, 7.54979e-08, -0.40828273, -6.891867e-08, 0.9128555, -1.1758182, 0, -0.20692676)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_60" parent="." unique_id=1405781805 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.90335774, 0, 0.42888784, 0, 1, 0, -0.42888784, 0, 0.90335774, -0.965311, 0, -0.36175698)
+
+[node name="Grass_61" parent="." unique_id=516916680 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.90335774, 0, 0.42888784, 0, 1, 0, -0.42888784, 0, 0.90335774, -1.0577059, 0, -0.11373803)
+
+[node name="Grass_62" parent="." unique_id=1195736141 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.90335774, 0, 0.42888784, 0, 1, 0, -0.42888784, 0, 0.90335774, -0.6864547, 0, -0.462736)
+
+[node name="Grass_63" parent="." unique_id=1954839789 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.90335774, 0, 0.42888784, 0, 1, 0, -0.42888784, 0, 0.90335774, -0.35931492, 0, -0.13481665)
+
+[node name="Grass_64" type="MeshInstance3D" parent="." unique_id=29818845]
+transform = Transform3D(0.90335774, -3.2380132e-08, 0.42888784, 0, 1, 7.54979e-08, -0.42888784, -6.8201615e-08, 0.90335774, -1.506964, 0, -0.35796654)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_65" type="MeshInstance3D" parent="." unique_id=1470808916]
+transform = Transform3D(0.28557122, -7.235398e-08, 0.9583575, 0, 1, 7.54979e-08, -0.9583575, -2.156003e-08, 0.28557122, -1.3034977, 0, -0.5817229)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_66" parent="." unique_id=425631655 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.90335774, 0, 0.42888784, 0, 1, 0, -0.42888784, 0, 0.90335774, -1.2773397, 0, -0.26469815)
+
+[node name="Grass_67" parent="." unique_id=1303833507 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.90335774, 0, 0.42888784, 0, 1, 0, -0.42888784, 0, 0.90335774, -1.703654, 0, -0.21102774)
+
+[node name="Grass_68" type="MeshInstance3D" parent="." unique_id=2104668201]
+transform = Transform3D(0.9128555, -3.0824488e-08, 0.40828273, 0, 1, 7.54979e-08, -0.40828273, -6.891867e-08, 0.9128555, -1.8973036, 0, -0.6090842)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_69" parent="." unique_id=600670173 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.90335774, 0, 0.42888784, 0, 1, 0, -0.42888784, 0, 0.90335774, -1.6867964, 0, -0.76391435)
+
+[node name="Grass_70" parent="." unique_id=874993116 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.90335774, 0, 0.42888784, 0, 1, 0, -0.42888784, 0, 0.90335774, -1.7791915, 0, -0.5158955)
+
+[node name="Grass_71" parent="." unique_id=170209655 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.90335774, 0, 0.42888784, 0, 1, 0, -0.42888784, 0, 0.90335774, -1.4079401, 0, -0.86489344)
+
+[node name="Grass_72" parent="." unique_id=970182744 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.90335774, 0, 0.42888784, 0, 1, 0, -0.42888784, 0, 0.90335774, -1.0808004, 0, -0.5369741)
+
+[node name="Grass_73" type="MeshInstance3D" parent="." unique_id=368304300]
+transform = Transform3D(-0.095463514, -7.5153096e-08, 0.9954329, 0, 1, 7.54979e-08, -0.9954329, 7.2072948e-09, -0.095463514, -0.47062594, 0, -1.0454221)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_74" type="MeshInstance3D" parent="." unique_id=481909820]
+transform = Transform3D(-0.8037323, -4.4920576e-08, 0.5949911, 0, 1, 7.54979e-08, -0.5949911, 6.0680094e-08, -0.8037323, -0.6116769, 0, -1.3129478)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_75" parent="." unique_id=1893188094 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.095463514, 0, 0.9954329, 0, 1, 0, -0.9954329, 0, -0.095463514, -0.30470636, 0, -1.2295332)
+
+[node name="Grass_76" parent="." unique_id=1357561737 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.095463514, 0, 0.9954329, 0, 1, 0, -0.9954329, 0, -0.095463514, -0.3994884, 0, -0.81043816)
+
+[node name="Grass_77" type="MeshInstance3D" parent="." unique_id=1580027204]
+transform = Transform3D(-0.07285527, -7.5297265e-08, 0.9973425, 0, 1, 7.54979e-08, -0.9973425, 5.500421e-09, -0.07285527, -0.8397058, 0, -0.7639879)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_78" parent="." unique_id=1704818087 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.095463514, 0, 0.9954329, 0, 1, 0, -0.9954329, 0, -0.095463514, -0.9135555, 0, -1.0146508)
+
+[node name="Grass_79" parent="." unique_id=630336527 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.095463514, 0, 0.9954329, 0, 1, 0, -0.9954329, 0, -0.095463514, -0.71185243, 0, -0.84328556)
+
+[node name="Grass_80" parent="." unique_id=2105503701 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.095463514, 0, 0.9954329, 0, 1, 0, -0.9954329, 0, -0.095463514, -0.91348946, 0, -1.3112273)
+
+[node name="Grass_81" parent="." unique_id=2125881610 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.095463514, 0, 0.9954329, 0, 1, 0, -0.9954329, 0, -0.095463514, -0.49373418, 0, -1.5070766)
+
+[node name="Grass_82" type="MeshInstance3D" parent="." unique_id=650619757]
+transform = Transform3D(-0.095463514, -7.5153096e-08, 0.9954329, 0, 1, 7.54979e-08, -0.9954329, 7.2072948e-09, -0.095463514, 0.24156559, 0, -1.5767694)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_83" type="MeshInstance3D" parent="." unique_id=1268204203]
+transform = Transform3D(-0.8037323, -4.4920576e-08, 0.5949911, 0, 1, 7.54979e-08, -0.5949911, 6.0680094e-08, -0.8037323, 0.10051465, 0, -1.844295)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_84" parent="." unique_id=1256284791 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.095463514, 0, 0.9954329, 0, 1, 0, -0.9954329, 0, -0.095463514, 0.40748513, 0, -1.7608805)
+
+[node name="Grass_85" parent="." unique_id=1208187777 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.095463514, 0, 0.9954329, 0, 1, 0, -0.9954329, 0, -0.095463514, 0.3127032, 0, -1.3417853)
+
+[node name="Grass_86" type="MeshInstance3D" parent="." unique_id=609855916]
+transform = Transform3D(-0.07285527, -7.5297265e-08, 0.9973425, 0, 1, 7.54979e-08, -0.9973425, 5.500421e-09, -0.07285527, -0.12751442, 0, -1.2953352)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_87" parent="." unique_id=7595978 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.095463514, 0, 0.9954329, 0, 1, 0, -0.9954329, 0, -0.095463514, -0.2013638, 0, -1.5459981)
+
+[node name="Grass_88" parent="." unique_id=1743678107 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.095463514, 0, 0.9954329, 0, 1, 0, -0.9954329, 0, -0.095463514, 0.00033926964, 0, -1.3746328)
+
+[node name="Grass_89" parent="." unique_id=2122973078 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.095463514, 0, 0.9954329, 0, 1, 0, -0.9954329, 0, -0.095463514, -0.20129794, 0, -1.8425746)
+
+[node name="Grass_90" parent="." unique_id=1703849455 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.095463514, 0, 0.9954329, 0, 1, 0, -0.9954329, 0, -0.095463514, 0.2184574, 0, -2.038424)
+
+[node name="Grass_91" type="MeshInstance3D" parent="." unique_id=635609465]
+transform = Transform3D(-0.095463514, -7.5153096e-08, 0.9954329, 0, 1, 7.54979e-08, -0.9954329, 7.2072948e-09, -0.095463514, -0.6064265, 0, -1.7589927)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_92" type="MeshInstance3D" parent="." unique_id=1023696525]
+transform = Transform3D(-0.8037323, -4.4920576e-08, 0.5949911, 0, 1, 7.54979e-08, -0.5949911, 6.0680094e-08, -0.8037323, -0.7474774, 0, -2.0265186)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_93" parent="." unique_id=1293058407 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.095463514, 0, 0.9954329, 0, 1, 0, -0.9954329, 0, -0.095463514, -0.44050682, 0, -1.943104)
+
+[node name="Grass_94" parent="." unique_id=1971688804 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.095463514, 0, 0.9954329, 0, 1, 0, -0.9954329, 0, -0.095463514, -0.5352888, 0, -1.5240089)
+
+[node name="Grass_95" type="MeshInstance3D" parent="." unique_id=1919760425]
+transform = Transform3D(-0.07285527, -7.5297265e-08, 0.9973425, 0, 1, 7.54979e-08, -0.9973425, 5.500421e-09, -0.07285527, -0.9755063, 0, -1.4775586)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_96" parent="." unique_id=440322314 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.095463514, 0, 0.9954329, 0, 1, 0, -0.9954329, 0, -0.095463514, -1.049356, 0, -1.7282217)
+
+[node name="Grass_97" parent="." unique_id=1832384559 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.095463514, 0, 0.9954329, 0, 1, 0, -0.9954329, 0, -0.095463514, -0.84765285, 0, -1.5568563)
+
+[node name="Grass_98" parent="." unique_id=2129799773 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.095463514, 0, 0.9954329, 0, 1, 0, -0.9954329, 0, -0.095463514, -1.0492901, 0, -2.024798)
+
+[node name="Grass_99" parent="." unique_id=615672712 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.095463514, 0, 0.9954329, 0, 1, 0, -0.9954329, 0, -0.095463514, -0.6295346, 0, -2.2206473)
+
+[node name="Grass_100" type="MeshInstance3D" parent="." unique_id=877204926]
+transform = Transform3D(-0.095463514, -7.5153096e-08, 0.9954329, 0, 1, 7.54979e-08, -0.9954329, 7.2072948e-09, -0.095463514, -1.2303287, 0, -1.2176816)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_101" type="MeshInstance3D" parent="." unique_id=1404851485]
+transform = Transform3D(-0.8037323, -4.4920576e-08, 0.5949911, 0, 1, 7.54979e-08, -0.5949911, 6.0680094e-08, -0.8037323, -1.3713799, 0, -1.4852073)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_102" parent="." unique_id=893670002 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.095463514, 0, 0.9954329, 0, 1, 0, -0.9954329, 0, -0.095463514, -1.0644093, 0, -1.4017928)
+
+[node name="Grass_103" parent="." unique_id=105440578 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.095463514, 0, 0.9954329, 0, 1, 0, -0.9954329, 0, -0.095463514, -1.1591913, 0, -0.9826976)
+
+[node name="Grass_104" type="MeshInstance3D" parent="." unique_id=872491283]
+transform = Transform3D(-0.07285527, -7.5297265e-08, 0.9973425, 0, 1, 7.54979e-08, -0.9973425, 5.500421e-09, -0.07285527, -1.5994087, 0, -0.93624747)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_105" parent="." unique_id=1042835013 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.095463514, 0, 0.9954329, 0, 1, 0, -0.9954329, 0, -0.095463514, -1.6732581, 0, -1.1869104)
+
+[node name="Grass_106" parent="." unique_id=1372312858 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.095463514, 0, 0.9954329, 0, 1, 0, -0.9954329, 0, -0.095463514, -1.4715552, 0, -1.0155451)
+
+[node name="Grass_107" parent="." unique_id=913889946 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.095463514, 0, 0.9954329, 0, 1, 0, -0.9954329, 0, -0.095463514, -1.6731923, 0, -1.4834869)
+
+[node name="Grass_108" parent="." unique_id=1786159129 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.095463514, 0, 0.9954329, 0, 1, 0, -0.9954329, 0, -0.095463514, -1.253437, 0, -1.6793362)
+
+[node name="Grass_109" type="MeshInstance3D" parent="." unique_id=782867319]
+transform = Transform3D(0.0746481, -7.528726e-08, 0.99720997, 0, 1, 7.54979e-08, -0.99720997, -5.6357745e-09, 0.0746481, 1.6622928, 0, 0.7248405)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_110" type="MeshInstance3D" parent="." unique_id=1213388729]
+transform = Transform3D(-0.6912483, -5.4556093e-08, 0.7226174, 0, 1, 7.54979e-08, -0.7226174, 5.218779e-08, -0.6912483, 1.5686296, 0, 0.43727726)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_111" parent="." unique_id=1728982435 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.0746481, 0, 0.99720997, 0, 1, 0, -0.99720997, 0, 0.0746481, 1.8570192, 0, 0.5715176)
+
+[node name="Grass_112" parent="." unique_id=1208927015 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.0746481, 0, 0.99720997, 0, 1, 0, -0.99720997, 0, 0.0746481, 1.6925702, 0, 0.96848226)
+
+[node name="Grass_113" type="MeshInstance3D" parent="." unique_id=1935827490]
+transform = Transform3D(0.09725287, -7.5140015e-08, 0.99525976, 0, 1, 7.54979e-08, -0.99525976, -7.3423867e-09, 0.09725287, 1.2508492, 0, 0.9396415)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_114" parent="." unique_id=894065836 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.0746481, 0, 0.99720997, 0, 1, 0, -0.99720997, 0, 0.0746481, 1.220557, 0, 0.68008804)
+
+[node name="Grass_115" parent="." unique_id=2121123003 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.0746481, 0, 0.99720997, 0, 1, 0, -0.99720997, 0, 0.0746481, 1.3902941, 0, 0.8831631)
+
+[node name="Grass_116" parent="." unique_id=54353933 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.0746481, 0, 0.99720997, 0, 1, 0, -0.99720997, 0, 0.0746481, 1.2708929, 0, 0.38781428)
+
+[node name="Grass_117" parent="." unique_id=745406740 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.0746481, 0, 0.99720997, 0, 1, 0, -0.99720997, 0, 0.0746481, 1.7177715, 0, 0.26594937)
+
+[node name="Grass_118" type="MeshInstance3D" parent="." unique_id=425399503]
+transform = Transform3D(0.0746481, -7.528726e-08, 0.99720997, 0, 1, 7.54979e-08, -0.99720997, -5.6357745e-09, 0.0746481, 2.4542444, 0, 0.32190168)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_119" type="MeshInstance3D" parent="." unique_id=735193966]
+transform = Transform3D(-0.6912483, -5.4556093e-08, 0.7226174, 0, 1, 7.54979e-08, -0.7226174, 5.218779e-08, -0.6912483, 2.3605814, 0, 0.034338474)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_120" parent="." unique_id=667032483 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.0746481, 0, 0.99720997, 0, 1, 0, -0.99720997, 0, 0.0746481, 2.6489706, 0, 0.1685788)
+
+[node name="Grass_121" parent="." unique_id=1642829826 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.0746481, 0, 0.99720997, 0, 1, 0, -0.99720997, 0, 0.0746481, 2.4845216, 0, 0.5655434)
+
+[node name="Grass_122" type="MeshInstance3D" parent="." unique_id=1393444181]
+transform = Transform3D(0.09725287, -7.5140015e-08, 0.99525976, 0, 1, 7.54979e-08, -0.99525976, -7.3423867e-09, 0.09725287, 2.042801, 0, 0.5367027)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_123" parent="." unique_id=1841328265 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.0746481, 0, 0.99720997, 0, 1, 0, -0.99720997, 0, 0.0746481, 2.0125084, 0, 0.27714914)
+
+[node name="Grass_124" parent="." unique_id=2099004905 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.0746481, 0, 0.99720997, 0, 1, 0, -0.99720997, 0, 0.0746481, 2.1822455, 0, 0.4802242)
+
+[node name="Grass_125" parent="." unique_id=2128850347 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.0746481, 0, 0.99720997, 0, 1, 0, -0.99720997, 0, 0.0746481, 2.0628443, 0, -0.01512444)
+
+[node name="Grass_126" parent="." unique_id=520027723 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.0746481, 0, 0.99720997, 0, 1, 0, -0.99720997, 0, 0.0746481, 2.509723, 0, -0.13698936)
+
+[node name="Grass_127" type="MeshInstance3D" parent="." unique_id=840192296]
+transform = Transform3D(0.0746481, -7.528726e-08, 0.99720997, 0, 1, 7.54979e-08, -0.99720997, -5.6357745e-09, 0.0746481, 1.649411, 0, -0.0014232397)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_128" type="MeshInstance3D" parent="." unique_id=1760078870]
+transform = Transform3D(-0.6912483, -5.4556093e-08, 0.7226174, 0, 1, 7.54979e-08, -0.7226174, 5.218779e-08, -0.6912483, 1.5557476, 0, -0.28898656)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_129" parent="." unique_id=1817852314 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.0746481, 0, 0.99720997, 0, 1, 0, -0.99720997, 0, 0.0746481, 1.8441372, 0, -0.1547463)
+
+[node name="Grass_130" parent="." unique_id=119756227 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.0746481, 0, 0.99720997, 0, 1, 0, -0.99720997, 0, 0.0746481, 1.6796882, 0, 0.24221843)
+
+[node name="Grass_131" type="MeshInstance3D" parent="." unique_id=1798110390]
+transform = Transform3D(0.09725287, -7.5140015e-08, 0.99525976, 0, 1, 7.54979e-08, -0.99525976, -7.3423867e-09, 0.09725287, 1.2379673, 0, 0.21337771)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_132" parent="." unique_id=2136977229 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.0746481, 0, 0.99720997, 0, 1, 0, -0.99720997, 0, 0.0746481, 1.2076749, 0, -0.046175838)
+
+[node name="Grass_133" parent="." unique_id=978209157 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.0746481, 0, 0.99720997, 0, 1, 0, -0.99720997, 0, 0.0746481, 1.3774121, 0, 0.15689933)
+
+[node name="Grass_134" parent="." unique_id=1326973941 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.0746481, 0, 0.99720997, 0, 1, 0, -0.99720997, 0, 0.0746481, 1.2580109, 0, -0.33844936)
+
+[node name="Grass_135" parent="." unique_id=1032713941 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.0746481, 0, 0.99720997, 0, 1, 0, -0.99720997, 0, 0.0746481, 1.7048895, 0, -0.4603144)
+
+[node name="Grass_136" type="MeshInstance3D" parent="." unique_id=1492220160]
+transform = Transform3D(0.0746481, -7.528726e-08, 0.99720997, 0, 1, 7.54979e-08, -0.99720997, -5.6357745e-09, 0.0746481, 0.942782, 0, 0.42630076)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_137" type="MeshInstance3D" parent="." unique_id=1755290636]
+transform = Transform3D(-0.6912483, -5.4556093e-08, 0.7226174, 0, 1, 7.54979e-08, -0.7226174, 5.218779e-08, -0.6912483, 0.8491189, 0, 0.13873744)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_138" parent="." unique_id=954038848 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.0746481, 0, 0.99720997, 0, 1, 0, -0.99720997, 0, 0.0746481, 1.1375084, 0, 0.27297777)
+
+[node name="Grass_139" parent="." unique_id=584942656 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.0746481, 0, 0.99720997, 0, 1, 0, -0.99720997, 0, 0.0746481, 0.9730595, 0, 0.66994244)
+
+[node name="Grass_140" type="MeshInstance3D" parent="." unique_id=147464687]
+transform = Transform3D(0.09725287, -7.5140015e-08, 0.99525976, 0, 1, 7.54979e-08, -0.99525976, -7.3423867e-09, 0.09725287, 0.5313386, 0, 0.6411017)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_141" parent="." unique_id=1657143161 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.0746481, 0, 0.99720997, 0, 1, 0, -0.99720997, 0, 0.0746481, 0.50104606, 0, 0.38154817)
+
+[node name="Grass_142" parent="." unique_id=1059084535 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.0746481, 0, 0.99720997, 0, 1, 0, -0.99720997, 0, 0.0746481, 0.6707833, 0, 0.58462334)
+
+[node name="Grass_143" parent="." unique_id=1634810128 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.0746481, 0, 0.99720997, 0, 1, 0, -0.99720997, 0, 0.0746481, 0.5513821, 0, 0.089274526)
+
+[node name="Grass_144" parent="." unique_id=1248460443 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.0746481, 0, 0.99720997, 0, 1, 0, -0.99720997, 0, 0.0746481, 0.99826074, 0, -0.03259051)
+
+[node name="Grass_145" type="MeshInstance3D" parent="." unique_id=2084775233]
+transform = Transform3D(-0.36025727, -7.042845e-08, 0.93285304, 0, 1, 7.54979e-08, -0.93285304, 2.719867e-08, -0.36025727, 1.9708486, 0, 2.1619773)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_146" type="MeshInstance3D" parent="." unique_id=1786675904]
+transform = Transform3D(-0.9343663, -2.6900956e-08, 0.356314, 0, 1, 7.54979e-08, -0.356314, 7.054269e-08, -0.9343663, 1.762905, 0, 1.9423757)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_147" parent="." unique_id=1002321538 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.36025727, 0, 0.93285304, 0, 1, 0, -0.93285304, 0, -0.36025727, 2.080998, 0, 1.9399562)
+
+[node name="Grass_148" parent="." unique_id=580005566 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.36025727, 0, 0.93285304, 0, 1, 0, -0.93285304, 0, -0.36025727, 2.102695, 0, 2.3690872)
+
+[node name="Grass_149" type="MeshInstance3D" parent="." unique_id=1715550716]
+transform = Transform3D(-0.33900067, -7.102737e-08, 0.9407861, 0, 1, 7.54979e-08, -0.9407861, 2.5593833e-08, -0.33900067, 1.6912937, 0, 2.5324826)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_150" parent="." unique_id=837931724 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.36025727, 0, 0.93285304, 0, 1, 0, -0.93285304, 0, -0.36025727, 1.5526094, 0, 2.3110049)
+
+[node name="Grass_151" parent="." unique_id=1370164852 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.36025727, 0, 0.93285304, 0, 1, 0, -0.93285304, 0, -0.36025727, 1.7930391, 0, 2.4216561)
+
+[node name="Grass_152" parent="." unique_id=1035841728 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.36025727, 0, 0.93285304, 0, 1, 0, -0.93285304, 0, -0.36025727, 1.4727281, 0, 2.0253887)
+
+[node name="Grass_153" parent="." unique_id=2123046049 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.36025727, 0, 0.93285304, 0, 1, 0, -0.93285304, 0, -0.36025727, 1.8241528, 0, 1.7236402)
+
+[node name="Grass_154" type="MeshInstance3D" parent="." unique_id=426770985]
+transform = Transform3D(-0.36025727, -7.042845e-08, 0.93285304, 0, 1, 7.54979e-08, -0.93285304, 2.719867e-08, -0.36025727, 2.5134487, 0, 1.4583211)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_155" type="MeshInstance3D" parent="." unique_id=1012486649]
+transform = Transform3D(-0.9343663, -2.6900956e-08, 0.356314, 0, 1, 7.54979e-08, -0.356314, 7.054269e-08, -0.9343663, 2.305505, 0, 1.2387195)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_156" parent="." unique_id=42091298 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.36025727, 0, 0.93285304, 0, 1, 0, -0.93285304, 0, -0.36025727, 2.6235979, 0, 1.2362998)
+
+[node name="Grass_157" parent="." unique_id=1625283704 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.36025727, 0, 0.93285304, 0, 1, 0, -0.93285304, 0, -0.36025727, 2.6452951, 0, 1.665431)
+
+[node name="Grass_158" type="MeshInstance3D" parent="." unique_id=452080025]
+transform = Transform3D(-0.33900067, -7.102737e-08, 0.9407861, 0, 1, 7.54979e-08, -0.9407861, 2.5593833e-08, -0.33900067, 2.2338934, 0, 1.8288262)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_159" parent="." unique_id=1550134036 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.36025727, 0, 0.93285304, 0, 1, 0, -0.93285304, 0, -0.36025727, 2.0952091, 0, 1.6073487)
+
+[node name="Grass_160" parent="." unique_id=445229858 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.36025727, 0, 0.93285304, 0, 1, 0, -0.93285304, 0, -0.36025727, 2.335639, 0, 1.7179999)
+
+[node name="Grass_161" parent="." unique_id=1234650193 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.36025727, 0, 0.93285304, 0, 1, 0, -0.93285304, 0, -0.36025727, 2.0153282, 0, 1.3217324)
+
+[node name="Grass_162" parent="." unique_id=380534538 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.36025727, 0, 0.93285304, 0, 1, 0, -0.93285304, 0, -0.36025727, 2.366753, 0, 1.019984)
+
+[node name="Grass_163" type="MeshInstance3D" parent="." unique_id=853564056]
+transform = Transform3D(-0.36025727, -7.042845e-08, 0.93285304, 0, 1, 7.54979e-08, -0.93285304, 2.719867e-08, -0.36025727, 1.6477259, 0, 1.5114262)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_164" type="MeshInstance3D" parent="." unique_id=1682015048]
+transform = Transform3D(-0.9343663, -2.6900956e-08, 0.356314, 0, 1, 7.54979e-08, -0.356314, 7.054269e-08, -0.9343663, 1.4397823, 0, 1.2918246)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_165" parent="." unique_id=1464598716 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.36025727, 0, 0.93285304, 0, 1, 0, -0.93285304, 0, -0.36025727, 1.7578751, 0, 1.289405)
+
+[node name="Grass_166" parent="." unique_id=234542870 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.36025727, 0, 0.93285304, 0, 1, 0, -0.93285304, 0, -0.36025727, 1.7795722, 0, 1.7185361)
+
+[node name="Grass_167" type="MeshInstance3D" parent="." unique_id=2115987732]
+transform = Transform3D(-0.33900067, -7.102737e-08, 0.9407861, 0, 1, 7.54979e-08, -0.9407861, 2.5593833e-08, -0.33900067, 1.3681707, 0, 1.8819313)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_168" parent="." unique_id=1489164707 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.36025727, 0, 0.93285304, 0, 1, 0, -0.93285304, 0, -0.36025727, 1.2294865, 0, 1.6604538)
+
+[node name="Grass_169" parent="." unique_id=1413839875 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.36025727, 0, 0.93285304, 0, 1, 0, -0.93285304, 0, -0.36025727, 1.4699163, 0, 1.771105)
+
+[node name="Grass_170" parent="." unique_id=1432646947 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.36025727, 0, 0.93285304, 0, 1, 0, -0.93285304, 0, -0.36025727, 1.1496053, 0, 1.3748376)
+
+[node name="Grass_171" parent="." unique_id=1298701420 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.36025727, 0, 0.93285304, 0, 1, 0, -0.93285304, 0, -0.36025727, 1.5010302, 0, 1.0730891)
+
+[node name="Grass_172" type="MeshInstance3D" parent="." unique_id=1931166227]
+transform = Transform3D(-0.36025727, -7.042845e-08, 0.93285304, 0, 1, 7.54979e-08, -0.93285304, 2.719867e-08, -0.36025727, 1.1928331, 0, 2.2008786)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_173" type="MeshInstance3D" parent="." unique_id=616927924]
+transform = Transform3D(-0.9343663, -2.6900956e-08, 0.356314, 0, 1, 7.54979e-08, -0.356314, 7.054269e-08, -0.9343663, 0.98488927, 0, 1.981277)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_174" parent="." unique_id=1207672063 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.36025727, 0, 0.93285304, 0, 1, 0, -0.93285304, 0, -0.36025727, 1.3029822, 0, 1.978857)
+
+[node name="Grass_175" parent="." unique_id=1659466998 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.36025727, 0, 0.93285304, 0, 1, 0, -0.93285304, 0, -0.36025727, 1.3246794, 0, 2.4079885)
+
+[node name="Grass_176" type="MeshInstance3D" parent="." unique_id=1873237682]
+transform = Transform3D(-0.33900067, -7.102737e-08, 0.9407861, 0, 1, 7.54979e-08, -0.9407861, 2.5593833e-08, -0.33900067, 0.913278, 0, 2.5713835)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_177" parent="." unique_id=692511538 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.36025727, 0, 0.93285304, 0, 1, 0, -0.93285304, 0, -0.36025727, 0.7745937, 0, 2.349906)
+
+[node name="Grass_178" parent="." unique_id=1077261374 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.36025727, 0, 0.93285304, 0, 1, 0, -0.93285304, 0, -0.36025727, 1.0150235, 0, 2.4605575)
+
+[node name="Grass_179" parent="." unique_id=1316306725 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.36025727, 0, 0.93285304, 0, 1, 0, -0.93285304, 0, -0.36025727, 0.6947124, 0, 2.0642898)
+
+[node name="Grass_180" parent="." unique_id=909402670 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.36025727, 0, 0.93285304, 0, 1, 0, -0.93285304, 0, -0.36025727, 1.0461372, 0, 1.7625413)
+
+[node name="Grass_181" type="MeshInstance3D" parent="." unique_id=505997634]
+transform = Transform3D(-0.9997818, 1.5771504e-09, -0.020889997, 0, 1, 7.54979e-08, 0.020889997, 7.5481424e-08, -0.9997818, 0.5846562, 0, 1.1161146)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_182" type="MeshInstance3D" parent="." unique_id=1773144801]
+transform = Transform3D(-0.65332824, 5.7157564e-08, -0.75707495, 2.8554307e-15, 1, 7.54979e-08, 0.75707495, 4.9324896e-08, -0.65332824, 0.30734777, 0, 1.2368017)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_183" parent="." unique_id=1952656973 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.9997818, 0, -0.020889997, 0, 1, 0, 0.020889997, 0, -0.9997818, 0.41344434, 0, 0.93691444)
+
+[node name="Grass_184" parent="." unique_id=2047728175 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.9997818, 0, -0.020889997, 0, 1, 0, 0.020889997, 0, -0.9997818, 0.8242948, 0, 1.0627167)
+
+[node name="Grass_185" type="MeshInstance3D" parent="." unique_id=27512252]
+transform = Transform3D(-0.9999984, -1.357301e-10, 0.0017977208, 0, 1, 7.54979e-08, -0.0017977208, 7.549778e-08, -0.9999984, 0.8377541, 0, 1.5051733)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_186" parent="." unique_id=1617112470 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.9997818, 0, -0.020889997, 0, 1, 0, 0.020889997, 0, -0.9997818, 0.5822778, 0, 1.5601054)
+
+[node name="Grass_187" parent="." unique_id=1280360475 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.9997818, 0, -0.020889997, 0, 1, 0, 0.020889997, 0, -0.9997818, 0.7682216, 0, 1.3717573)
+
+[node name="Grass_188" parent="." unique_id=1771595095 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.9997818, 0, -0.020889997, 0, 1, 0, 0.020889997, 0, -0.9997818, 0.2865336, 0, 1.5379007)
+
+[node name="Grass_189" parent="." unique_id=98684238 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.9997818, 0, -0.020889997, 0, 1, 0, 0.020889997, 0, -0.9997818, 0.12256479, 0, 1.1046968)
+
+[node name="Grass_190" type="MeshInstance3D" parent="." unique_id=2094804642]
+transform = Transform3D(-0.9997818, 1.5771504e-09, -0.020889997, 0, 1, 7.54979e-08, 0.020889997, 7.5481424e-08, -0.9997818, 0.1079551, 0, 0.3662461)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_191" type="MeshInstance3D" parent="." unique_id=1128762333]
+transform = Transform3D(-0.65332824, 5.7157564e-08, -0.75707495, 2.8554307e-15, 1, 7.54979e-08, 0.75707495, 4.9324896e-08, -0.65332824, -0.16935325, 0, 0.48693317)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_192" parent="." unique_id=12405785 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.9997818, 0, -0.020889997, 0, 1, 0, 0.020889997, 0, -0.9997818, -0.06325674, 0, 0.18704587)
+
+[node name="Grass_193" parent="." unique_id=1365787344 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.9997818, 0, -0.020889997, 0, 1, 0, 0.020889997, 0, -0.9997818, 0.3475939, 0, 0.3128481)
+
+[node name="Grass_194" type="MeshInstance3D" parent="." unique_id=198414638]
+transform = Transform3D(-0.9999984, -1.357301e-10, 0.0017977208, 0, 1, 7.54979e-08, -0.0017977208, 7.549778e-08, -0.9999984, 0.361053, 0, 0.7553048)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_195" parent="." unique_id=1311990854 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.9997818, 0, -0.020889997, 0, 1, 0, 0.020889997, 0, -0.9997818, 0.10557675, 0, 0.8102367)
+
+[node name="Grass_196" parent="." unique_id=149303397 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.9997818, 0, -0.020889997, 0, 1, 0, 0.020889997, 0, -0.9997818, 0.2915206, 0, 0.62188846)
+
+[node name="Grass_197" parent="." unique_id=1737230591 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.9997818, 0, -0.020889997, 0, 1, 0, 0.020889997, 0, -0.9997818, -0.19016743, 0, 0.7880322)
+
+[node name="Grass_198" parent="." unique_id=1292432665 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.9997818, 0, -0.020889997, 0, 1, 0, 0.020889997, 0, -0.9997818, -0.35413647, 0, 0.35482812)
+
+[node name="Grass_199" type="MeshInstance3D" parent="." unique_id=649609515]
+transform = Transform3D(-0.9997818, 1.5771504e-09, -0.020889997, 0, 1, 7.54979e-08, 0.020889997, 7.5481424e-08, -0.9997818, -0.13706076, 0, 1.1982696)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_200" type="MeshInstance3D" parent="." unique_id=528948127]
+transform = Transform3D(-0.65332824, 5.7157564e-08, -0.75707495, 2.8554307e-15, 1, 7.54979e-08, 0.75707495, 4.9324896e-08, -0.65332824, -0.41436934, 0, 1.3189566)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_201" parent="." unique_id=602135863 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.9997818, 0, -0.020889997, 0, 1, 0, 0.020889997, 0, -0.9997818, -0.30827284, 0, 1.0190693)
+
+[node name="Grass_202" parent="." unique_id=1454877877 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.9997818, 0, -0.020889997, 0, 1, 0, 0.020889997, 0, -0.9997818, 0.102577806, 0, 1.1448715)
+
+[node name="Grass_203" type="MeshInstance3D" parent="." unique_id=516998995]
+transform = Transform3D(-0.9999984, -1.357301e-10, 0.0017977208, 0, 1, 7.54979e-08, -0.0017977208, 7.549778e-08, -0.9999984, 0.11603701, 0, 1.5873282)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_204" parent="." unique_id=1169724525 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.9997818, 0, -0.020889997, 0, 1, 0, 0.020889997, 0, -0.9997818, -0.13943946, 0, 1.6422603)
+
+[node name="Grass_205" parent="." unique_id=89123744 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.9997818, 0, -0.020889997, 0, 1, 0, 0.020889997, 0, -0.9997818, 0.046504617, 0, 1.453912)
+
+[node name="Grass_206" parent="." unique_id=363774646 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.9997818, 0, -0.020889997, 0, 1, 0, 0.020889997, 0, -0.9997818, -0.4351833, 0, 1.6200557)
+
+[node name="Grass_207" parent="." unique_id=1839346547 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.9997818, 0, -0.020889997, 0, 1, 0, 0.020889997, 0, -0.9997818, -0.5991523, 0, 1.1868516)
+
+[node name="Grass_208" type="MeshInstance3D" parent="." unique_id=2062319446]
+transform = Transform3D(-0.9997818, 1.5771504e-09, -0.020889997, 0, 1, 7.54979e-08, 0.020889997, 7.5481424e-08, -0.9997818, 0.35616684, 0, 1.8608389)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_209" type="MeshInstance3D" parent="." unique_id=1702978690]
+transform = Transform3D(-0.65332824, 5.7157564e-08, -0.75707495, 2.8554307e-15, 1, 7.54979e-08, 0.75707495, 4.9324896e-08, -0.65332824, 0.078858495, 0, 1.9815264)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_210" parent="." unique_id=392556643 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.9997818, 0, -0.020889997, 0, 1, 0, 0.020889997, 0, -0.9997818, 0.184955, 0, 1.6816387)
+
+[node name="Grass_211" parent="." unique_id=393712641 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.9997818, 0, -0.020889997, 0, 1, 0, 0.020889997, 0, -0.9997818, 0.5958056, 0, 1.8074412)
+
+[node name="Grass_212" type="MeshInstance3D" parent="." unique_id=1395464881]
+transform = Transform3D(-0.9999984, -1.357301e-10, 0.0017977208, 0, 1, 7.54979e-08, -0.0017977208, 7.549778e-08, -0.9999984, 0.6092647, 0, 2.249898)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_213" parent="." unique_id=1704030097 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.9997818, 0, -0.020889997, 0, 1, 0, 0.020889997, 0, -0.9997818, 0.35378844, 0, 2.3048296)
+
+[node name="Grass_214" parent="." unique_id=797273490 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.9997818, 0, -0.020889997, 0, 1, 0, 0.020889997, 0, -0.9997818, 0.5397323, 0, 2.1164818)
+
+[node name="Grass_215" parent="." unique_id=174667474 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.9997818, 0, -0.020889997, 0, 1, 0, 0.020889997, 0, -0.9997818, 0.058044314, 0, 2.2826252)
+
+[node name="Grass_216" parent="." unique_id=1436103187 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.9997818, 0, -0.020889997, 0, 1, 0, 0.020889997, 0, -0.9997818, -0.10592461, 0, 1.849421)
+
+[node name="Grass_217" type="MeshInstance3D" parent="." unique_id=1146150470]
+transform = Transform3D(-0.8289204, 4.2230997e-08, -0.5593665, 0, 1, 7.54979e-08, 0.5593665, 6.2581755e-08, -0.8289204, 1.9351244, -9.536743e-07, -1.5530436)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_218" type="MeshInstance3D" parent="." unique_id=1674639179]
+transform = Transform3D(-0.13879281, 7.476719e-08, -0.9903214, 0, 1, 7.54979e-08, 0.9903214, 1.0478562e-08, -0.13879281, 1.7674713, -9.536743e-07, -1.3013338)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_219" parent="." unique_id=225984609 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.8289204, 0, -0.5593665, 0, 1, 0, 0.5593665, 0, -0.8289204, 1.6941199, -9.536743e-07, -1.6108632)
+
+[node name="Grass_220" parent="." unique_id=807788805 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.8289204, 0, -0.5593665, 0, 1, 0, 0.5593665, 0, -0.8289204, 2.1075847, -9.536743e-07, -1.7277875)
+
+[node name="Grass_221" type="MeshInstance3D" parent="." unique_id=1117313387]
+transform = Transform3D(-0.8413976, 4.080032e-08, -0.5404166, 0, 1, 7.54979e-08, 0.5404166, 6.352375e-08, -0.8413976, 2.358676, -9.536743e-07, -1.3632298)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_222" parent="." unique_id=1655162088 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.8289204, 0, -0.5593665, 0, 1, 0, 0.5593665, 0, -0.8289204, 2.1737366, -9.536743e-07, -1.1786139)
+
+[node name="Grass_223" parent="." unique_id=1066973886 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.8289204, 0, -0.5593665, 0, 1, 0, 0.5593665, 0, -0.8289204, 2.2279372, -9.536743e-07, -1.4376745)
+
+[node name="Grass_224" parent="." unique_id=1265909210 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.8289204, 0, -0.5593665, 0, 1, 0, 0.5593665, 0, -0.8289204, 1.9131527, -9.536743e-07, -1.0370032)
+
+[node name="Grass_225" parent="." unique_id=1102698385 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.8289204, 0, -0.5593665, 0, 1, 0, 0.5593665, 0, -0.8289204, 1.5405836, -9.536743e-07, -1.312219)
+
+[node name="Grass_226" type="MeshInstance3D" parent="." unique_id=634068253]
+transform = Transform3D(-0.8289204, 4.2230997e-08, -0.5593665, 0, 1, 7.54979e-08, 0.5593665, 6.2581755e-08, -0.8289204, 1.128118, -9.536743e-07, -1.9249139)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_227" type="MeshInstance3D" parent="." unique_id=695618989]
+transform = Transform3D(-0.13879281, 7.476719e-08, -0.9903214, 0, 1, 7.54979e-08, 0.9903214, 1.0478562e-08, -0.13879281, 0.96046495, -9.536743e-07, -1.6732041)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_228" parent="." unique_id=1934831336 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.8289204, 0, -0.5593665, 0, 1, 0, 0.5593665, 0, -0.8289204, 0.8871137, -9.536743e-07, -1.9827335)
+
+[node name="Grass_229" parent="." unique_id=702512476 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.8289204, 0, -0.5593665, 0, 1, 0, 0.5593665, 0, -0.8289204, 1.3005784, -9.536743e-07, -2.0996578)
+
+[node name="Grass_230" type="MeshInstance3D" parent="." unique_id=1354074222]
+transform = Transform3D(-0.8413976, 4.080032e-08, -0.5404166, 0, 1, 7.54979e-08, 0.5404166, 6.352375e-08, -0.8413976, 1.5516696, -9.536743e-07, -1.7351)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_231" parent="." unique_id=1395111562 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.8289204, 0, -0.5593665, 0, 1, 0, 0.5593665, 0, -0.8289204, 1.3667303, -9.536743e-07, -1.5504842)
+
+[node name="Grass_232" parent="." unique_id=844023919 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.8289204, 0, -0.5593665, 0, 1, 0, 0.5593665, 0, -0.8289204, 1.420931, -9.536743e-07, -1.8095448)
+
+[node name="Grass_233" parent="." unique_id=1829806842 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.8289204, 0, -0.5593665, 0, 1, 0, 0.5593665, 0, -0.8289204, 1.1061463, -9.536743e-07, -1.4088734)
+
+[node name="Grass_234" parent="." unique_id=1250173437 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.8289204, 0, -0.5593665, 0, 1, 0, 0.5593665, 0, -0.8289204, 0.7335774, -9.536743e-07, -1.6840892)
+
+[node name="Grass_235" type="MeshInstance3D" parent="." unique_id=759455202]
+transform = Transform3D(-0.8289204, 4.2230997e-08, -0.5593665, 0, 1, 7.54979e-08, 0.5593665, 6.2581755e-08, -0.8289204, 1.3730975, -9.536743e-07, -1.0928797)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_236" type="MeshInstance3D" parent="." unique_id=1314498320]
+transform = Transform3D(-0.13879281, 7.476719e-08, -0.9903214, 0, 1, 7.54979e-08, 0.9903214, 1.0478562e-08, -0.13879281, 1.2054445, -9.536743e-07, -0.84116983)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_237" parent="." unique_id=1712417053 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.8289204, 0, -0.5593665, 0, 1, 0, 0.5593665, 0, -0.8289204, 1.1320931, -9.536743e-07, -1.1506994)
+
+[node name="Grass_238" parent="." unique_id=1519984142 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.8289204, 0, -0.5593665, 0, 1, 0, 0.5593665, 0, -0.8289204, 1.545558, -9.536743e-07, -1.2676237)
+
+[node name="Grass_239" type="MeshInstance3D" parent="." unique_id=2059098667]
+transform = Transform3D(-0.8413976, 4.080032e-08, -0.5404166, 0, 1, 7.54979e-08, 0.5404166, 6.352375e-08, -0.8413976, 1.7966492, -9.536743e-07, -0.903066)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_240" parent="." unique_id=1159328607 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.8289204, 0, -0.5593665, 0, 1, 0, 0.5593665, 0, -0.8289204, 1.6117098, -9.536743e-07, -0.7184499)
+
+[node name="Grass_241" parent="." unique_id=1989993418 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.8289204, 0, -0.5593665, 0, 1, 0, 0.5593665, 0, -0.8289204, 1.6659106, -9.536743e-07, -0.97751075)
+
+[node name="Grass_242" parent="." unique_id=892290250 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.8289204, 0, -0.5593665, 0, 1, 0, 0.5593665, 0, -0.8289204, 1.351126, -9.536743e-07, -0.57683915)
+
+[node name="Grass_243" parent="." unique_id=622156017 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.8289204, 0, -0.5593665, 0, 1, 0, 0.5593665, 0, -0.8289204, 0.97855675, -9.536743e-07, -0.8520551)
+
+[node name="Grass_244" type="MeshInstance3D" parent="." unique_id=1176612568]
+transform = Transform3D(-0.8289204, 4.2230997e-08, -0.5593665, 0, 1, 7.54979e-08, 0.5593665, 6.2581755e-08, -0.8289204, 2.1466837, -9.536743e-07, -0.803334)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_245" type="MeshInstance3D" parent="." unique_id=1868953075]
+transform = Transform3D(-0.13879281, 7.476719e-08, -0.9903214, 0, 1, 7.54979e-08, 0.9903214, 1.0478562e-08, -0.13879281, 1.9790304, -9.536743e-07, -0.5516241)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_246" parent="." unique_id=472645739 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.8289204, 0, -0.5593665, 0, 1, 0, 0.5593665, 0, -0.8289204, 1.905679, -9.536743e-07, -0.86115366)
+
+[node name="Grass_247" parent="." unique_id=1191372796 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.8289204, 0, -0.5593665, 0, 1, 0, 0.5593665, 0, -0.8289204, 2.319144, -9.536743e-07, -0.97807795)
+
+[node name="Grass_248" type="MeshInstance3D" parent="." unique_id=820517518]
+transform = Transform3D(-0.8413976, 4.080032e-08, -0.5404166, 0, 1, 7.54979e-08, 0.5404166, 6.352375e-08, -0.8413976, 2.5702353, -9.536743e-07, -0.61352026)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_249" parent="." unique_id=583777782 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.8289204, 0, -0.5593665, 0, 1, 0, 0.5593665, 0, -0.8289204, 2.3852959, -9.536743e-07, -0.4289043)
+
+[node name="Grass_250" parent="." unique_id=1209125738 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.8289204, 0, -0.5593665, 0, 1, 0, 0.5593665, 0, -0.8289204, 2.4394965, -9.536743e-07, -0.68796504)
+
+[node name="Grass_251" parent="." unique_id=1576588078 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.8289204, 0, -0.5593665, 0, 1, 0, 0.5593665, 0, -0.8289204, 2.1247118, -9.536743e-07, -0.28729343)
+
+[node name="Grass_252" parent="." unique_id=207759958 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.8289204, 0, -0.5593665, 0, 1, 0, 0.5593665, 0, -0.8289204, 1.7521427, -9.536743e-07, -0.56250936)
+
+[node name="Grass_253" type="MeshInstance3D" parent="." unique_id=340071000]
+transform = Transform3D(-0.5089061, 6.499025e-08, -0.86082196, 0, 1, 7.54979e-08, 0.86082196, 3.8421348e-08, -0.5089061, 2.8718572, -9.536743e-07, -2.6857839)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_254" type="MeshInstance3D" parent="." unique_id=38828014]
+transform = Transform3D(0.2993573, 7.2035654e-08, -0.9541411, 0, 1, 7.54979e-08, 0.9541411, -2.2600844e-08, 0.2993573, 2.8283617, -9.536743e-07, -2.386495)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_255" parent="." unique_id=1319212367 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.5089061, 0, -0.86082196, 0, 1, 0, 0.86082196, 0, -0.5089061, 2.629346, -9.536743e-07, -2.6346517)
+
+[node name="Grass_256" parent="." unique_id=1961441625 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.5089061, 0, -0.86082196, 0, 1, 0, 0.86082196, 0, -0.5089061, 2.952705, -9.536743e-07, -2.9176064)
+
+[node name="Grass_257" type="MeshInstance3D" parent="." unique_id=525189081]
+transform = Transform3D(-0.52830493, 6.410185e-08, -0.8490547, 0, 1, 7.54979e-08, 0.8490547, 3.98859e-08, -0.52830493, 3.3358846, -9.536743e-07, -2.69597)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_258" parent="." unique_id=1871074218 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.5089061, 0, -0.86082196, 0, 1, 0, 0.86082196, 0, -0.5089061, 3.2479978, -9.536743e-07, -2.4498777)
+
+[node name="Grass_259" parent="." unique_id=287712334 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.5089061, 0, -0.86082196, 0, 1, 0, 0.86082196, 0, -0.5089061, 3.1858523, -9.536743e-07, -2.707148)
+
+[node name="Grass_260" parent="." unique_id=609420335 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.5089061, 0, -0.86082196, 0, 1, 0, 0.86082196, 0, -0.5089061, 3.0733323, -9.536743e-07, -2.2101912)
+
+[node name="Grass_261" parent="." unique_id=1960957352 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.5089061, 0, -0.86082196, 0, 1, 0, 0.86082196, 0, -0.5089061, 2.6187325, -9.536743e-07, -2.299019)
+
+[node name="Grass_262" type="MeshInstance3D" parent="." unique_id=582464031]
+transform = Transform3D(-0.5089061, 6.499025e-08, -0.86082196, 0, 1, 7.54979e-08, 0.86082196, 3.8421348e-08, -0.5089061, 1.983351, -9.536743e-07, -2.6756003)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_263" type="MeshInstance3D" parent="." unique_id=252486625]
+transform = Transform3D(0.2993573, 7.2035654e-08, -0.9541411, 0, 1, 7.54979e-08, 0.9541411, -2.2600844e-08, 0.2993573, 1.9398556, -9.536743e-07, -2.376312)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_264" parent="." unique_id=2068024206 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.5089061, 0, -0.86082196, 0, 1, 0, 0.86082196, 0, -0.5089061, 1.7408397, -9.536743e-07, -2.6244683)
+
+[node name="Grass_265" parent="." unique_id=703263002 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.5089061, 0, -0.86082196, 0, 1, 0, 0.86082196, 0, -0.5089061, 2.064199, -9.536743e-07, -2.907423)
+
+[node name="Grass_266" type="MeshInstance3D" parent="." unique_id=469498423]
+transform = Transform3D(-0.52830493, 6.410185e-08, -0.8490547, 0, 1, 7.54979e-08, 0.8490547, 3.98859e-08, -0.52830493, 2.4473786, -9.536743e-07, -2.6857867)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_267" parent="." unique_id=1308624978 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.5089061, 0, -0.86082196, 0, 1, 0, 0.86082196, 0, -0.5089061, 2.3594916, -9.536743e-07, -2.4396944)
+
+[node name="Grass_268" parent="." unique_id=584226317 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.5089061, 0, -0.86082196, 0, 1, 0, 0.86082196, 0, -0.5089061, 2.297346, -9.536743e-07, -2.6969647)
+
+[node name="Grass_269" parent="." unique_id=1851235013 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.5089061, 0, -0.86082196, 0, 1, 0, 0.86082196, 0, -0.5089061, 2.1848264, -9.536743e-07, -2.200008)
+
+[node name="Grass_270" parent="." unique_id=1806384185 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.5089061, 0, -0.86082196, 0, 1, 0, 0.86082196, 0, -0.5089061, 1.7302263, -9.536743e-07, -2.288836)
+
+[node name="Grass_271" type="MeshInstance3D" parent="." unique_id=202838481]
+transform = Transform3D(-0.5089061, 6.499025e-08, -0.86082196, 0, 1, 7.54979e-08, 0.86082196, 3.8421348e-08, -0.5089061, 2.5615046, -9.536743e-07, -2.0290446)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_272" type="MeshInstance3D" parent="." unique_id=581056118]
+transform = Transform3D(0.2993573, 7.2035654e-08, -0.9541411, 0, 1, 7.54979e-08, 0.9541411, -2.2600844e-08, 0.2993573, 2.5180092, -9.536743e-07, -1.7297562)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_273" parent="." unique_id=466593255 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.5089061, 0, -0.86082196, 0, 1, 0, 0.86082196, 0, -0.5089061, 2.3189933, -9.536743e-07, -1.9779127)
+
+[node name="Grass_274" parent="." unique_id=1598942224 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.5089061, 0, -0.86082196, 0, 1, 0, 0.86082196, 0, -0.5089061, 2.6423523, -9.536743e-07, -2.260867)
+
+[node name="Grass_275" type="MeshInstance3D" parent="." unique_id=1454871003]
+transform = Transform3D(-0.52830493, 6.410185e-08, -0.8490547, 0, 1, 7.54979e-08, 0.8490547, 3.98859e-08, -0.52830493, 3.025532, -9.536743e-07, -2.039231)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_276" parent="." unique_id=2020376264 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.5089061, 0, -0.86082196, 0, 1, 0, 0.86082196, 0, -0.5089061, 2.9376452, -9.536743e-07, -1.7931385)
+
+[node name="Grass_277" parent="." unique_id=1376025781 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.5089061, 0, -0.86082196, 0, 1, 0, 0.86082196, 0, -0.5089061, 2.8754997, -9.536743e-07, -2.050409)
+
+[node name="Grass_278" parent="." unique_id=898674505 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.5089061, 0, -0.86082196, 0, 1, 0, 0.86082196, 0, -0.5089061, 2.7629797, -9.536743e-07, -1.553452)
+
+[node name="Grass_279" parent="." unique_id=2022184487 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.5089061, 0, -0.86082196, 0, 1, 0, 0.86082196, 0, -0.5089061, 2.30838, -9.536743e-07, -1.6422801)
+
+[node name="Grass_280" type="MeshInstance3D" parent="." unique_id=388210016]
+transform = Transform3D(-0.5089061, 6.499025e-08, -0.86082196, 0, 1, 7.54979e-08, 0.86082196, 3.8421348e-08, -0.5089061, 3.3845122, -9.536743e-07, -2.099263)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_281" type="MeshInstance3D" parent="." unique_id=171161671]
+transform = Transform3D(0.2993573, 7.2035654e-08, -0.9541411, 0, 1, 7.54979e-08, 0.9541411, -2.2600844e-08, 0.2993573, 3.3410165, -9.536743e-07, -1.7999744)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_282" parent="." unique_id=2015908374 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.5089061, 0, -0.86082196, 0, 1, 0, 0.86082196, 0, -0.5089061, 3.1420007, -9.536743e-07, -2.048131)
+
+[node name="Grass_283" parent="." unique_id=1484198643 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.5089061, 0, -0.86082196, 0, 1, 0, 0.86082196, 0, -0.5089061, 3.46536, -9.536743e-07, -2.3310854)
+
+[node name="Grass_284" type="MeshInstance3D" parent="." unique_id=1265137722]
+transform = Transform3D(-0.52830493, 6.410185e-08, -0.8490547, 0, 1, 7.54979e-08, 0.8490547, 3.98859e-08, -0.52830493, 3.8485396, -9.536743e-07, -2.1094494)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_285" parent="." unique_id=1092451722 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.5089061, 0, -0.86082196, 0, 1, 0, 0.86082196, 0, -0.5089061, 3.7606525, -9.536743e-07, -1.8633568)
+
+[node name="Grass_286" parent="." unique_id=396854494 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.5089061, 0, -0.86082196, 0, 1, 0, 0.86082196, 0, -0.5089061, 3.6985073, -9.536743e-07, -2.1206274)
+
+[node name="Grass_287" parent="." unique_id=933530953 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.5089061, 0, -0.86082196, 0, 1, 0, 0.86082196, 0, -0.5089061, 3.5859873, -9.536743e-07, -1.6236703)
+
+[node name="Grass_288" parent="." unique_id=1265205913 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(-0.5089061, 0, -0.86082196, 0, 1, 0, 0.86082196, 0, -0.5089061, 3.1313872, -9.536743e-07, -1.7124984)
+
+[node name="Grass_289" type="MeshInstance3D" parent="." unique_id=221595845]
+transform = Transform3D(0.63594353, 5.826442e-08, -0.7717356, 0, 1, 7.54979e-08, 0.7717356, -4.8012403e-08, 0.63594353, 2.91001, -9.536743e-07, -0.9497242)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_290" type="MeshInstance3D" parent="." unique_id=1423718501]
+transform = Transform3D(0.99904835, 3.2931666e-09, -0.043619365, 2.8554304e-15, 1, 7.54979e-08, 0.043619365, -7.542605e-08, 0.99904835, 3.176575, -9.536743e-07, -0.806866)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_291" parent="." unique_id=1330960297 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.63594353, 0, -0.7717356, 0, 1, 0, 0.7717356, 0, 0.63594353, 2.8754613, -9.536743e-07, -0.7043009)
+
+[node name="Grass_292" parent="." unique_id=1336817796 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.63594353, 0, -0.7717356, 0, 1, 0, 0.7717356, 0, 0.63594353, 2.7196007, -9.536743e-07, -1.1047153)
+
+[node name="Grass_293" type="MeshInstance3D" parent="." unique_id=890151540]
+transform = Transform3D(0.6182713, 5.933868e-08, -0.78596485, 0, 1, 7.54979e-08, 0.78596485, -4.667818e-08, 0.6182713, 3.0585232, -9.536743e-07, -1.3894618)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_294" parent="." unique_id=1743998027 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.63594353, 0, -0.7717356, 0, 1, 0, 0.7717356, 0, 0.63594353, 3.259951, -9.536743e-07, -1.2229912)
+
+[node name="Grass_295" parent="." unique_id=483312401 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.63594353, 0, -0.7717356, 0, 1, 0, 0.7717356, 0, 0.63594353, 2.9968994, -9.536743e-07, -1.2522135)
+
+[node name="Grass_296" parent="." unique_id=1376396787 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.63594353, 0, -0.7717356, 0, 1, 0, 0.7717356, 0, 0.63594353, 3.425791, -9.536743e-07, -0.97711587)
+
+[node name="Grass_297" parent="." unique_id=356524082 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.63594353, 0, -0.7717356, 0, 1, 0, 0.7717356, 0, 0.63594353, 3.187399, -9.536743e-07, -0.5799753)
+
+[node name="Grass_298" type="MeshInstance3D" parent="." unique_id=1967886797]
+transform = Transform3D(0.63594353, 5.826442e-08, -0.7717356, 0, 1, 7.54979e-08, 0.7717356, -4.8012403e-08, 0.63594353, 2.6168778, -9.536743e-07, -0.1109035)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_299" type="MeshInstance3D" parent="." unique_id=1764502429]
+transform = Transform3D(0.99904835, 3.2931666e-09, -0.043619365, 2.8554304e-15, 1, 7.54979e-08, 0.043619365, -7.542605e-08, 0.99904835, 2.8834426, -9.536743e-07, 0.031954765)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_300" parent="." unique_id=22606563 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.63594353, 0, -0.7717356, 0, 1, 0, 0.7717356, 0, 0.63594353, 2.5823295, -9.536743e-07, 0.13451958)
+
+[node name="Grass_301" parent="." unique_id=1599516330 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.63594353, 0, -0.7717356, 0, 1, 0, 0.7717356, 0, 0.63594353, 2.4264681, -9.536743e-07, -0.26589465)
+
+[node name="Grass_302" type="MeshInstance3D" parent="." unique_id=538846135]
+transform = Transform3D(0.6182713, 5.933868e-08, -0.78596485, 0, 1, 7.54979e-08, 0.78596485, -4.667818e-08, 0.6182713, 2.7653909, -9.536743e-07, -0.55064106)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_303" parent="." unique_id=1892560099 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.63594353, 0, -0.7717356, 0, 1, 0, 0.7717356, 0, 0.63594353, 2.9668186, -9.536743e-07, -0.3841703)
+
+[node name="Grass_304" parent="." unique_id=1210828443 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.63594353, 0, -0.7717356, 0, 1, 0, 0.7717356, 0, 0.63594353, 2.7037668, -9.536743e-07, -0.41339254)
+
+[node name="Grass_305" parent="." unique_id=327661597 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.63594353, 0, -0.7717356, 0, 1, 0, 0.7717356, 0, 0.63594353, 3.132659, -9.536743e-07, -0.13829517)
+
+[node name="Grass_306" parent="." unique_id=2059489803 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.63594353, 0, -0.7717356, 0, 1, 0, 0.7717356, 0, 0.63594353, 2.8942668, -9.536743e-07, 0.25884545)
+
+[node name="Grass_307" type="MeshInstance3D" parent="." unique_id=770743136]
+transform = Transform3D(0.63594353, 5.826442e-08, -0.7717356, 0, 1, 7.54979e-08, 0.7717356, -4.8012403e-08, 0.63594353, 3.4217255, -9.536743e-07, -0.43419325)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_308" type="MeshInstance3D" parent="." unique_id=816691145]
+transform = Transform3D(0.99904835, 3.2931666e-09, -0.043619365, 2.8554304e-15, 1, 7.54979e-08, 0.043619365, -7.542605e-08, 0.99904835, 3.6882904, -9.536743e-07, -0.29133487)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_309" parent="." unique_id=1245972055 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.63594353, 0, -0.7717356, 0, 1, 0, 0.7717356, 0, 0.63594353, 3.387177, -9.536743e-07, -0.18876982)
+
+[node name="Grass_310" parent="." unique_id=844471046 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.63594353, 0, -0.7717356, 0, 1, 0, 0.7717356, 0, 0.63594353, 3.2313159, -9.536743e-07, -0.58918417)
+
+[node name="Grass_311" type="MeshInstance3D" parent="." unique_id=677283073]
+transform = Transform3D(0.6182713, 5.933868e-08, -0.78596485, 0, 1, 7.54979e-08, 0.78596485, -4.667818e-08, 0.6182713, 3.5702384, -9.536743e-07, -0.8739307)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_312" parent="." unique_id=1219488173 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.63594353, 0, -0.7717356, 0, 1, 0, 0.7717356, 0, 0.63594353, 3.7716663, -9.536743e-07, -0.7074599)
+
+[node name="Grass_313" parent="." unique_id=246173429 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.63594353, 0, -0.7717356, 0, 1, 0, 0.7717356, 0, 0.63594353, 3.5086145, -9.536743e-07, -0.7366823)
+
+[node name="Grass_314" parent="." unique_id=935751970 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.63594353, 0, -0.7717356, 0, 1, 0, 0.7717356, 0, 0.63594353, 3.9375064, -9.536743e-07, -0.46158504)
+
+[node name="Grass_315" parent="." unique_id=205546142 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.63594353, 0, -0.7717356, 0, 1, 0, 0.7717356, 0, 0.63594353, 3.6991146, -9.536743e-07, -0.0644443)
+
+[node name="Grass_316" type="MeshInstance3D" parent="." unique_id=75011774]
+transform = Transform3D(0.63594353, 5.826442e-08, -0.7717356, 0, 1, 7.54979e-08, 0.7717356, -4.8012403e-08, 0.63594353, 3.6360993, -9.536743e-07, -1.2318871)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_317" type="MeshInstance3D" parent="." unique_id=354018366]
+transform = Transform3D(0.99904835, 3.2931666e-09, -0.043619365, 2.8554304e-15, 1, 7.54979e-08, 0.043619365, -7.542605e-08, 0.99904835, 3.9026644, -9.536743e-07, -1.0890288)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_318" parent="." unique_id=470647391 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.63594353, 0, -0.7717356, 0, 1, 0, 0.7717356, 0, 0.63594353, 3.601551, -9.536743e-07, -0.9864638)
+
+[node name="Grass_319" parent="." unique_id=1411486849 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.63594353, 0, -0.7717356, 0, 1, 0, 0.7717356, 0, 0.63594353, 3.44569, -9.536743e-07, -1.3868783)
+
+[node name="Grass_320" type="MeshInstance3D" parent="." unique_id=1526570554]
+transform = Transform3D(0.6182713, 5.933868e-08, -0.78596485, 0, 1, 7.54979e-08, 0.78596485, -4.667818e-08, 0.6182713, 3.7846124, -9.536743e-07, -1.6716247)
+mesh = SubResource("ArrayMesh_lpkcv")
+
+[node name="Grass_321" parent="." unique_id=1362801074 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.63594353, 0, -0.7717356, 0, 1, 0, 0.7717356, 0, 0.63594353, 3.98604, -9.536743e-07, -1.5051539)
+
+[node name="Grass_322" parent="." unique_id=1208634069 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.63594353, 0, -0.7717356, 0, 1, 0, 0.7717356, 0, 0.63594353, 3.7229886, -9.536743e-07, -1.5343763)
+
+[node name="Grass_323" parent="." unique_id=1796261841 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.63594353, 0, -0.7717356, 0, 1, 0, 0.7717356, 0, 0.63594353, 4.1518803, -9.536743e-07, -1.2592788)
+
+[node name="Grass_324" parent="." unique_id=463237560 instance=ExtResource("2_p3dvq")]
+transform = Transform3D(0.63594353, 0, -0.7717356, 0, 1, 0, 0.7717356, 0, 0.63594353, 3.9134884, -9.536743e-07, -0.86213833)
