@@ -1,0 +1,5 @@
+res://Scenes/Bullet.tscn
+res://Scripts/ScriptPlayer.gd
+res://Scripts/ScriptBullet.gd
+res://Scenes/Gun.tscn
+res://Scenes/Player.tscn
