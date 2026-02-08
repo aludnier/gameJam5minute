@@ -1,10 +1,10 @@
 extends Node3D
 
 @export var flash_material: ShaderMaterial
-
+@onready var anim_tree : AnimationTree = $AnimationTree
 @export var hit_material: Material
 var original_materials := {}
-
+@export var is_moving : bool
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	_cache_original_materials($"Armature/Skeleton3D/Man-Eater Bug")
@@ -42,7 +42,20 @@ func hit_flash():
 	await get_tree().create_timer(0.08).timeout
 	_restore_materials()
 
+func die():
+	anim_tree["parameters/conditions/die"] = true
+	is_moving = false
 
+func attack():
+	anim_tree.set("parameters/conditions/attacking", true)
+	print("ATTACK")
+	is_moving = false
+	anim_tree.set("parameters/conditions/Is Moving", false)
+
+	await get_tree().create_timer(1.25).timeout
+	anim_tree.set("parameters/conditions/attacking", false)
+	is_moving = true
+	anim_tree.set("parameters/conditions/Is Moving", true)
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	pass
