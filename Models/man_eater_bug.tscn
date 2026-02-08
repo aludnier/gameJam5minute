@@ -19,48 +19,93 @@ shader_parameter/hit_color = Color(1, 0, 0, 1)
 shader_parameter/emission_strength = 1.5
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_287x0"]
-animation = &"die"
+animation = &"attack"
 
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_yxvaj"]
-animation = &"spawn"
+[sub_resource type="AnimationNodeBlendTree" id="AnimationNodeBlendTree_ky64d"]
+graph_offset = Vector2(-120.09003, -0.099990845)
+nodes/output/position = Vector2(660, 140)
+nodes/Animation/node = SubResource("AnimationNodeAnimation_287x0")
+nodes/Animation/position = Vector2(423, 172)
+node_connections = [&"output", 0, &"Animation"]
 
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_djy5i"]
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_lmrds"]
 animation = &"walk"
 
-[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_yxvaj"]
+[sub_resource type="AnimationNodeBlendTree" id="AnimationNodeBlendTree_mqob6"]
+nodes/output/position = Vector2(660, 180)
+nodes/Animation/node = SubResource("AnimationNodeAnimation_lmrds")
+nodes/Animation/position = Vector2(400, 180)
+node_connections = [&"output", 0, &"Animation"]
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_u2w17"]
+animation = &"die"
+
+[sub_resource type="AnimationNodeBlendTree" id="AnimationNodeBlendTree_jf0ur"]
+graph_offset = Vector2(-130.1543, 92.58099)
+nodes/output/position = Vector2(660, 160)
+nodes/Animation/node = SubResource("AnimationNodeAnimation_u2w17")
+nodes/Animation/position = Vector2(383, 209)
+node_connections = [&"output", 0, &"Animation"]
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_i8ueo"]
+animation = &"spawn"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_8uhfi"]
 switch_mode = 2
 advance_mode = 2
 
-[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_djy5i"]
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_o41ic"]
+switch_mode = 2
+advance_mode = 2
+advance_condition = &"is_moving"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_7idtj"]
+switch_mode = 2
+advance_mode = 2
+advance_condition = &"attacking"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_dk1rj"]
 switch_mode = 2
 advance_mode = 2
 
-[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_ky64d"]
-switch_mode = 2
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_qnjeg"]
 advance_mode = 2
+advance_condition = &"attacking"
 
-[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_lmrds"]
-switch_mode = 2
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_0bh4d"]
 advance_mode = 2
+advance_condition = &"die"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_61rvg"]
+advance_mode = 2
+advance_condition = &"die"
 
 [sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_lmrds"]
-states/Start/position = Vector2(234, 108)
-states/die/node = SubResource("AnimationNodeAnimation_287x0")
-states/die/position = Vector2(715, 55)
-states/spawn/node = SubResource("AnimationNodeAnimation_yxvaj")
-states/spawn/position = Vector2(397, 89)
-states/walk/node = SubResource("AnimationNodeAnimation_djy5i")
-states/walk/position = Vector2(574, 100)
-transitions = ["Start", "spawn", SubResource("AnimationNodeStateMachineTransition_yxvaj"), "spawn", "walk", SubResource("AnimationNodeStateMachineTransition_djy5i"), "walk", "die", SubResource("AnimationNodeStateMachineTransition_ky64d"), "die", "End", SubResource("AnimationNodeStateMachineTransition_lmrds")]
+states/Attack/node = SubResource("AnimationNodeBlendTree_ky64d")
+states/Attack/position = Vector2(527, 272)
+states/End/position = Vector2(956, 167)
+states/Start/position = Vector2(199, 149)
+states/Walk/node = SubResource("AnimationNodeBlendTree_mqob6")
+states/Walk/position = Vector2(538, 52)
+states/dying/node = SubResource("AnimationNodeBlendTree_jf0ur")
+states/dying/position = Vector2(732, 167)
+states/spawn/node = SubResource("AnimationNodeAnimation_i8ueo")
+states/spawn/position = Vector2(354, 156)
+transitions = ["Start", "spawn", SubResource("AnimationNodeStateMachineTransition_8uhfi"), "spawn", "Walk", SubResource("AnimationNodeStateMachineTransition_o41ic"), "spawn", "Attack", SubResource("AnimationNodeStateMachineTransition_7idtj"), "Attack", "Walk", SubResource("AnimationNodeStateMachineTransition_dk1rj"), "Walk", "Attack", SubResource("AnimationNodeStateMachineTransition_qnjeg"), "Walk", "dying", SubResource("AnimationNodeStateMachineTransition_0bh4d"), "Attack", "dying", SubResource("AnimationNodeStateMachineTransition_61rvg")]
+graph_offset = Vector2(0, -72.24987)
 
-[node name="Man - Eater Bug" unique_id=1641714998 instance=ExtResource("1_yxvaj")]
+[node name="Man - Eater Bug" unique_id=189295611 instance=ExtResource("1_yxvaj")]
 script = ExtResource("3_uvtxw")
 flash_material = SubResource("ShaderMaterial_lmrds")
 hit_material = SubResource("ShaderMaterial_mqob6")
+is_moving = true
 
-[node name="AnimationPlayer" parent="." index="1" unique_id=1794270298]
+[node name="AnimationPlayer" parent="." index="1" unique_id=991676949]
 autoplay = &"spawn"
 
 [node name="AnimationTree" type="AnimationTree" parent="." index="2" unique_id=176285886]
 tree_root = SubResource("AnimationNodeStateMachine_lmrds")
 anim_player = NodePath("../AnimationPlayer")
+parameters/conditions/attacking = false
+parameters/conditions/die = false
+parameters/conditions/is_moving = true

@@ -329,8 +329,9 @@ use_collision = true
 size = Vector3(111.13482, 1.305, 115.59857)
 material = SubResource("StandardMaterial3D_h2yge")
 
-[node name="Enemy" parent="." unique_id=249537311 instance=ExtResource("13_ycdy4")]
+[node name="Enemy" parent="." unique_id=249537311 node_paths=PackedStringArray("player_path") instance=ExtResource("13_ycdy4")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.6, 1.1, 2.5)
+player_path = NodePath("../Player2")
 
 [node name="Spawns" type="Node3D" parent="." unique_id=1791248459]
 
