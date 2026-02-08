@@ -34,6 +34,19 @@ func _on_body_entered(body):
 		rect.color.a -= 0.02
 		await get_tree().create_timer(1.0).timeout
 
+	var enemies = find_children_with_var($"../NavigationRegion3D", "LIFE")
+	for enemy in enemies:
+		enemy.lose_life(300)
 	global_position = Vector3(0.0, 5405.358, 0.0)
 
-	
+func find_children_with_var(root: Node, var_name: String) -> Array:
+	var result := []
+
+	for child in root.get_children():
+		if var_name in child:
+			result.append(child)
+
+		# Recherche récursive
+		result += find_children_with_var(child, var_name)
+
+	return result

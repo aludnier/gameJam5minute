@@ -1,7 +1,7 @@
 extends Node3D
 
 @export var flash_material: ShaderMaterial
-@onready var uid = $"../../UID"
+@onready var uid = $"../../../UID"
 @onready var anim_tree : AnimationTree = $AnimationTree
 @export var hit_material: Material
 var original_materials := {}
@@ -54,7 +54,8 @@ func attack():
 	anim_tree.set("parameters/conditions/Is Moving", false)
 
 	await get_tree().create_timer(1.25).timeout
-	uid.time_left -= 15
+	if uid:
+		uid.time_left -= 15
 	anim_tree.set("parameters/conditions/attacking", false)
 	is_moving = true
 	anim_tree.set("parameters/conditions/Is Moving", true)

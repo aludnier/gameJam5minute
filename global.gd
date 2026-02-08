@@ -3,7 +3,7 @@ extends Node
 var coins := 0
 var selected_item := 0
 var totalcoins := 0
-var kill := 37
+var kill := 0
 
 var base_speed := 7.0
 var jump_velocity := 4.5

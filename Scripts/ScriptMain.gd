@@ -35,7 +35,7 @@ func _input(event: InputEvent) -> void:
 		$UID.clear_item()
 		
 func _process(delta: float) -> void:
-	if (Global.coins == 1):
+	if (Global.coins == 3):
 		$UID.set_random_item()
 		Global.coins = 0
 
