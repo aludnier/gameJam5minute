@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b7nomlvgit01k"
+path="res://.godot/imported/tactical nuke Countdown.mp3-31ae0f964dfc86b9f1a1db820268062a.mp3str"
+
+[deps]
+
+source_file="res://resources/tactical nuke Countdown.mp3"
+dest_files=["res://.godot/imported/tactical nuke Countdown.mp3-31ae0f964dfc86b9f1a1db820268062a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

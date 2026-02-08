@@ -1,0 +1,65 @@
+[gd_scene format=3 uid="uid://cvaauqoig7uw6"]
+
+[ext_resource type="PackedScene" uid="uid://dltfupr7lp57q" path="res://src/Player/test_character.tscn" id="1_a2ug0"]
+[ext_resource type="PackedScene" uid="uid://bfhoswxlq4ge4" path="res://src/UID/uid.tscn" id="1_dm202"]
+[ext_resource type="Script" uid="uid://bk5awypfavfh" path="res://src/test.gd" id="1_kp6gn"]
+[ext_resource type="PackedScene" uid="uid://cnedxfn2pxh2t" path="res://level/level.tscn" id="2_osw1l"]
+[ext_resource type="PackedScene" uid="uid://bbv6tmqp2akmu" path="res://src/Tomatoes/coin.tscn" id="4_jm2xb"]
+[ext_resource type="PackedScene" uid="uid://ccbss6cyactlp" path="res://src/Tomatoes/nuke.tscn" id="5_3njka"]
+[ext_resource type="AudioStream" uid="uid://b7nomlvgit01k" path="res://resources/tactical nuke Countdown.mp3" id="7_g8r04"]
+[ext_resource type="AudioStream" uid="uid://b6m7pdoqlqtwd" path="res://resources/Eurythmics - Sweet Dreams (Lyrics).mp3" id="8_tchgg"]
+[ext_resource type="AudioStream" uid="uid://b200id6dhkn4f" path="res://resources/super-mario-bros-nes-music-star-theme-cut-mp3.mp3" id="9_if8kf"]
+
+[node name="Test" type="Node3D" unique_id=1462527637]
+script = ExtResource("1_kp6gn")
+
+[node name="test_character" parent="." unique_id=219350086 instance=ExtResource("1_a2ug0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.9631634, 0.2793622, -36.727345)
+
+[node name="Level" parent="." unique_id=1512392882 instance=ExtResource("2_osw1l")]
+
+[node name="tomatoes" type="Node3D" parent="." unique_id=1460019259]
+
+[node name="coin" parent="tomatoes" unique_id=76478329 instance=ExtResource("4_jm2xb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.077086, 8.252912, -21.842014)
+
+[node name="coin2" parent="tomatoes" unique_id=897753162 instance=ExtResource("4_jm2xb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.0770204, 0.275419, -35.484447)
+
+[node name="coin3" parent="tomatoes" unique_id=1332184297 instance=ExtResource("4_jm2xb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.5361223, 4.340614, -22.324434)
+
+[node name="coin4" parent="tomatoes" unique_id=1338120476 instance=ExtResource("4_jm2xb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.9075344, 0.12392408, -38.56782)
+
+[node name="coin5" parent="tomatoes" unique_id=1383276593 instance=ExtResource("4_jm2xb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.9677072, 0.38062644, -37.267292)
+
+[node name="coin6" parent="tomatoes" unique_id=1399594179 instance=ExtResource("4_jm2xb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.2282956, 0.83319926, -41.180103)
+
+[node name="coin7" parent="tomatoes" unique_id=107430769 instance=ExtResource("4_jm2xb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8385146, 0.6583548, -39.97772)
+
+[node name="coin8" parent="tomatoes" unique_id=1364433417 instance=ExtResource("4_jm2xb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.6393249, 2.4301784, -27.455088)
+
+[node name="coin9" parent="tomatoes" unique_id=1848131549 instance=ExtResource("4_jm2xb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.0100355, 6.199504, -18.075066)
+
+[node name="coin10" parent="tomatoes" unique_id=1436822212 instance=ExtResource("4_jm2xb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.73538375, 0.61961204, -32.555244)
+
+[node name="nuke" parent="." unique_id=1120907369 instance=ExtResource("5_3njka")]
+transform = Transform3D(1000, 0, 0, 0, 1000, 0, 0, 0, 1000, 4.391987, 5405.358, -36.633556)
+
+[node name="nukes" type="AudioStreamPlayer" parent="." unique_id=354506614]
+stream = ExtResource("7_g8r04")
+
+[node name="UID" parent="." unique_id=795344524 instance=ExtResource("1_dm202")]
+
+[node name="slow" type="AudioStreamPlayer" parent="." unique_id=1176850568]
+stream = ExtResource("8_tchgg")
+
+[node name="fast" type="AudioStreamPlayer" parent="." unique_id=168473906]
+stream = ExtResource("9_if8kf")

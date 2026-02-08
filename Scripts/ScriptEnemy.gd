@@ -10,6 +10,7 @@ func _ready():
 
 func _process(delta: float) -> void:
 	if LIFE <= 0:
+		Global.kill += 1
 		self.queue_free()
 
 func lose_life(damage :int) -> void:

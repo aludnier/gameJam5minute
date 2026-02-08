@@ -1,0 +1,108 @@
+[gd_scene format=3 uid="uid://bfhoswxlq4ge4"]
+
+[ext_resource type="Texture2D" uid="uid://c5aq3hs3j2l1" path="res://resources/Main Sprites/tomato1.png" id="1_53jut"]
+[ext_resource type="Script" uid="uid://dxwmegoyygayk" path="res://src/UID/uid.gd" id="1_nrbh4"]
+
+[sub_resource type="SystemFont" id="SystemFont_nrbh4"]
+subpixel_positioning = 0
+
+[sub_resource type="LabelSettings" id="LabelSettings_d4ril"]
+font = SubResource("SystemFont_nrbh4")
+font_size = 47
+font_color = Color(0.8862745, 0.41960785, 0.3254902, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_nrbh4"]
+font_size = 32
+
+[node name="UID" type="Control" unique_id=795344524]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 10.0
+offset_top = 6.0
+offset_right = 10.0
+offset_bottom = 6.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1_nrbh4")
+
+[node name="tomatos" type="Panel" parent="." unique_id=451752910]
+layout_mode = 0
+offset_left = 21.0
+offset_top = 548.0
+offset_right = 181.0
+offset_bottom = 616.0
+
+[node name="count" type="Label" parent="tomatos" unique_id=702620609]
+layout_mode = 0
+offset_left = 66.0
+offset_top = -2.0
+offset_right = 158.0
+offset_bottom = 66.0
+text = "0
+"
+label_settings = SubResource("LabelSettings_d4ril")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AspectRatioContainer" type="AspectRatioContainer" parent="tomatos" unique_id=213698158]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.13700001
+anchor_top = 0.015000001
+anchor_right = 0.425
+anchor_bottom = 0.9710001
+offset_left = -12.919994
+offset_top = -0.01999998
+offset_right = -0.07500458
+offset_bottom = -0.028007507
+
+[node name="TextureRect" type="TextureRect" parent="tomatos/AspectRatioContainer" unique_id=224775978]
+layout_mode = 2
+texture = ExtResource("1_53jut")
+
+[node name="Item" type="Panel" parent="." unique_id=79991713]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.015000001
+anchor_top = 0.006
+anchor_right = 0.101
+anchor_bottom = 0.148
+offset_left = -8.280001
+offset_top = 2.112
+offset_right = -8.352005
+offset_bottom = 2.0960007
+
+[node name="AspectRatioContainer" type="AspectRatioContainer" parent="Item" unique_id=1120782632]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(2.48, 2.3199992)
+
+[node name="TextureRect" type="TextureRect" parent="Item/AspectRatioContainer" unique_id=859105932]
+layout_mode = 2
+
+[node name="Panel" type="Panel" parent="." unique_id=170947634]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.40300003
+anchor_top = 0.014
+anchor_right = 0.523
+anchor_bottom = 0.086
+offset_left = -0.25604248
+offset_top = -0.0720005
+offset_right = 0.5040283
+offset_bottom = 0.27199936
+
+[node name="TimeLabel" type="Label" parent="Panel" unique_id=1199743424]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.98600006
+anchor_bottom = 1.0
+offset_right = -0.054016113
+text = "5:00"
+label_settings = SubResource("LabelSettings_nrbh4")
+horizontal_alignment = 1
+vertical_alignment = 1

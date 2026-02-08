@@ -168,6 +168,11 @@ func release_mouse():
 	Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
 	mouse_captured = false
 
+func _process(delta):
+	base_speed = Global.base_speed
+	jump_velocity = Global.jump_velocity
+	sprint_speed = Global.sprint_speed
+	freefly_speed = Global.sprint_speed
 
 ## Checks if some Input Actions haven't been created.
 ## Disables functionality accordingly.

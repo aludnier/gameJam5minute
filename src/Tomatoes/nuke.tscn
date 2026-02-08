@@ -1,0 +1,52 @@
+[gd_scene format=3 uid="uid://ccbss6cyactlp"]
+
+[ext_resource type="Script" uid="uid://bqjh34qtbxyji" path="res://src/Tomatoes/nuke.gd" id="1_g0s5q"]
+[ext_resource type="Material" uid="uid://cg2ujwpv73ha0" path="res://level/interactable/flag/waving_flag_material.tres" id="2_a4egp"]
+[ext_resource type="Material" uid="uid://g5x7g5rmse4o" path="res://level/cactus/materials/cactus_body.material" id="3_42gep"]
+[ext_resource type="AudioStream" uid="uid://b7nomlvgit01k" path="res://resources/tactical nuke Countdown.mp3" id="4_glwfe"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_0yv4r"]
+material = ExtResource("2_a4egp")
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_axu22"]
+material = ExtResource("3_42gep")
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_12juh"]
+material = ExtResource("3_42gep")
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_ih06k"]
+
+[node name="nuke" type="Area3D" unique_id=76478329]
+transform = Transform3D(500, 0, 0, 0, 500, 0, 0, 0, 500, 0, 3568.5, 0)
+script = ExtResource("1_g0s5q")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=140814561]
+unique_name_in_owner = true
+transform = Transform3D(0.99999994, 0, 0, 0, 0.99999994, 0, 0, 0, 0.99999994, 0, 0.3282465, 0)
+mesh = SubResource("SphereMesh_0yv4r")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="MeshInstance3D" unique_id=1364572725]
+unique_name_in_owner = true
+transform = Transform3D(-0.04388999, 0, 0, 0, 0.13712955, 0, 0, 0, 0.029757703, 0, 0.54640996, 0)
+mesh = SubResource("CylinderMesh_axu22")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="MeshInstance3D/MeshInstance3D2" unique_id=1445881632]
+transform = Transform3D(-11.532419, 0, 0, 0, 3.714476, 0, 0, 0, 20.069695, 0, -3.9493814, 0)
+mesh = SubResource("CapsuleMesh_12juh")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1755278544]
+transform = Transform3D(1.2, 0, 0, 0, 1.2, 0, 0, 0, 1.2, 0, 0.542521, 0)
+shape = SubResource("SphereShape3D_ih06k")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1204022821]
+stream = ExtResource("4_glwfe")
+
+[node name="ScreenFX" type="CanvasLayer" parent="." unique_id=623579767]
+visible = false
+
+[node name="ColorRect" type="ColorRect" parent="ScreenFX" unique_id=250145557]
+offset_right = 1170.0
+offset_bottom = 649.0
+mouse_filter = 2
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

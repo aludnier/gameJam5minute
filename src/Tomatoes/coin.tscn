@@ -1,0 +1,48 @@
+[gd_scene format=3 uid="uid://bbv6tmqp2akmu"]
+
+[ext_resource type="Material" uid="uid://cg2ujwpv73ha0" path="res://level/interactable/flag/waving_flag_material.tres" id="1_1gsug"]
+[ext_resource type="Script" uid="uid://d1b58vbmm5d47" path="res://src/Tomatoes/coin.gd" id="1_4g4ph"]
+[ext_resource type="Material" uid="uid://g5x7g5rmse4o" path="res://level/cactus/materials/cactus_body.material" id="2_eg81t"]
+[ext_resource type="AudioStream" uid="uid://73k1mi4brpdj" path="res://resources/SMW_Coin_Theme.oga.mp3" id="4_2b12c"]
+[ext_resource type="AudioStream" uid="uid://cd3tr6nnomr4v" path="res://resources/Voicy_mario kart item box sound.mp3" id="5_l0pln"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_0yv4r"]
+material = ExtResource("1_1gsug")
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_axu22"]
+material = ExtResource("2_eg81t")
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_12juh"]
+material = ExtResource("2_eg81t")
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_ih06k"]
+
+[node name="coin" type="Area3D" unique_id=76478329]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+script = ExtResource("1_4g4ph")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=140814561]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5376879, 0)
+mesh = SubResource("SphereMesh_0yv4r")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="MeshInstance3D" unique_id=1364572725]
+unique_name_in_owner = true
+transform = Transform3D(-0.04388999, 0, 0, 0, 0.13712955, 0, 0, 0, 0.029757703, 0, 0.54640996, 0)
+mesh = SubResource("CylinderMesh_axu22")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="MeshInstance3D/MeshInstance3D2" unique_id=1445881632]
+transform = Transform3D(-11.532419, 0, 0, 0, 3.714476, 0, 0, 0, 20.069695, 0, -3.9493814, 0)
+mesh = SubResource("CapsuleMesh_12juh")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1755278544]
+transform = Transform3D(1.2, 0, 0, 0, 1.2, 0, 0, 0, 1.2, 0, 0.542521, 0)
+shape = SubResource("SphereShape3D_ih06k")
+
+[node name="collect" type="AudioStreamPlayer" parent="." unique_id=620256468]
+stream = ExtResource("4_2b12c")
+
+[node name="random" type="AudioStreamPlayer" parent="." unique_id=1638633366]
+stream = ExtResource("5_l0pln")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
