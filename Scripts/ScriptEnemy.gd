@@ -12,6 +12,7 @@ func _process(delta: float) -> void:
 	if LIFE <= 0:
 		get_node("Man - Eater Bug").die()
 		await get_tree().create_timer(1.4).timeout
+		Global.kill += 1
 		self.queue_free()
 
 func lose_life(damage :int) -> void:

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b6m7pdoqlqtwd"
+path="res://.godot/imported/Eurythmics - Sweet Dreams (Lyrics).mp3-1f6a32b727956587f3dd932d5ac3aa8d.mp3str"
+
+[deps]
+
+source_file="res://resources/Eurythmics - Sweet Dreams (Lyrics).mp3"
+dest_files=["res://.godot/imported/Eurythmics - Sweet Dreams (Lyrics).mp3-1f6a32b727956587f3dd932d5ac3aa8d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

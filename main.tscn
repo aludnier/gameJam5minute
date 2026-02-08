@@ -3,6 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://h2qk5a6cgqbr" path="res://shader/seamless-textured-grass-natural-grass-pattern/Cartoon_green_texture_grass.jpg" id="1_272bh"]
 [ext_resource type="Script" uid="uid://bvy3wggnuyfjq" path="res://Scripts/ScriptMain.gd" id="1_dg77c"]
 [ext_resource type="PackedScene" uid="uid://bs72ogkvdd7d6" path="res://Scenes/Player.tscn" id="1_ig7tw"]
+[ext_resource type="PackedScene" uid="uid://bfhoswxlq4ge4" path="res://src/UID/uid.tscn" id="2_w48qg"]
 [ext_resource type="PackedScene" uid="uid://b4gh6p0q0uf63" path="res://Models/BarnClose.tscn" id="4_1bvp3"]
 [ext_resource type="PackedScene" uid="uid://bisq706ua6qna" path="res://Models/big_barn.tscn" id="5_lquwl"]
 [ext_resource type="PackedScene" uid="uid://chnb15o5vsxid" path="res://Models/water_tower.tscn" id="6_4c57u"]
@@ -13,6 +14,11 @@
 [ext_resource type="PackedScene" uid="uid://jjd0lf6rhkki" path="res://Models/mounting_3.tscn" id="10_dg77c"]
 [ext_resource type="PackedScene" uid="uid://jvfdjf2y44f7" path="res://Models/grass.tscn" id="11_efxa6"]
 [ext_resource type="PackedScene" uid="uid://dmsshpxa3tujh" path="res://Scenes/Enemy.tscn" id="13_ycdy4"]
+[ext_resource type="PackedScene" uid="uid://ccbss6cyactlp" path="res://src/Tomatoes/nuke.tscn" id="15_2cqfq"]
+[ext_resource type="PackedScene" uid="uid://bbv6tmqp2akmu" path="res://src/Tomatoes/coin.tscn" id="15_vivmo"]
+[ext_resource type="AudioStream" uid="uid://b7nomlvgit01k" path="res://resources/tactical nuke Countdown.mp3" id="16_cegan"]
+[ext_resource type="AudioStream" uid="uid://b200id6dhkn4f" path="res://resources/super-mario-bros-nes-music-star-theme-cut-mp3.mp3" id="17_82xsv"]
+[ext_resource type="AudioStream" uid="uid://b6m7pdoqlqtwd" path="res://resources/Eurythmics - Sweet Dreams (Lyrics).mp3" id="18_getpj"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_7mycd"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -40,6 +46,8 @@ uv1_triplanar = true
 
 [node name="Main" type="Node3D" unique_id=1541389728]
 script = ExtResource("1_dg77c")
+
+[node name="UID" parent="." unique_id=795344524 instance=ExtResource("2_w48qg")]
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=829527876]
 transform = Transform3D(-0.9034751, 0.40386462, -0.14361835, 0.32451966, 0.86337024, 0.38636628, 0.28003547, 0.3024654, -0.9110954, 0, 0, 0)
@@ -369,5 +377,49 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.700002, 1.1, 30)
 [node name="EnemySpawnTimer" type="Timer" parent="." unique_id=97961402]
 wait_time = 1.15
 autostart = true
+
+[node name="nuke" parent="." unique_id=76478329 instance=ExtResource("15_2cqfq")]
+
+[node name="nukes" type="AudioStreamPlayer" parent="." unique_id=517717591]
+stream = ExtResource("16_cegan")
+
+[node name="fast" type="AudioStreamPlayer" parent="." unique_id=1978764447]
+stream = ExtResource("17_82xsv")
+
+[node name="slow" type="AudioStreamPlayer" parent="." unique_id=250121915]
+stream = ExtResource("18_getpj")
+
+[node name="tomatos1" type="Node3D" parent="." unique_id=240047176]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.2, 0)
+
+[node name="coin" parent="tomatos1" unique_id=166130791 instance=ExtResource("15_vivmo")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -12.400001, 1.1, -21)
+
+[node name="coin2" parent="tomatos1" unique_id=1196235817 instance=ExtResource("15_vivmo")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -7.7000003, 1.1, -21)
+
+[node name="coin3" parent="tomatos1" unique_id=643533127 instance=ExtResource("15_vivmo")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -7.7000003, 1.1, -5.299999)
+
+[node name="coin4" parent="tomatos1" unique_id=795952117 instance=ExtResource("15_vivmo")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0.099999905, 1.1, 0.50000095)
+
+[node name="coin5" parent="tomatos1" unique_id=482090811 instance=ExtResource("15_vivmo")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -14.200001, 1.1, 0.50000095)
+
+[node name="coin6" parent="tomatos1" unique_id=378002204 instance=ExtResource("15_vivmo")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -14.200001, 1.1, 14.500001)
+
+[node name="coin7" parent="tomatos1" unique_id=2005684070 instance=ExtResource("15_vivmo")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -1.2000008, 1.1, 14.500001)
+
+[node name="coin8" parent="tomatos1" unique_id=1819389261 instance=ExtResource("15_vivmo")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -1.2000008, 1.1, 6.4000006)
+
+[node name="coin9" parent="tomatos1" unique_id=185376156 instance=ExtResource("15_vivmo")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 5.6999993, 1.1, 6.4000006)
+
+[node name="coin10" parent="tomatos1" unique_id=1016526027 instance=ExtResource("15_vivmo")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 5.6999993, 1.1, 27.100002)
 
 [connection signal="timeout" from="EnemySpawnTimer" to="." method="_on_zombie_spawn_timer_timeout"]
