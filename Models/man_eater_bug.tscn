@@ -24,12 +24,12 @@ states/Start/position = Vector2(234, 108)
 states/spawn/node = SubResource("AnimationNodeAnimation_yxvaj")
 states/spawn/position = Vector2(397, 89)
 states/walk/node = SubResource("AnimationNodeAnimation_djy5i")
-states/walk/position = Vector2(632, 100)
+states/walk/position = Vector2(565, 100)
 transitions = ["Start", "spawn", SubResource("AnimationNodeStateMachineTransition_yxvaj"), "spawn", "walk", SubResource("AnimationNodeStateMachineTransition_djy5i"), "walk", "End", SubResource("AnimationNodeStateMachineTransition_uvtxw")]
 
-[node name="Man - Eater Bug" unique_id=954575182 instance=ExtResource("1_yxvaj")]
+[node name="Man - Eater Bug" unique_id=1641714998 instance=ExtResource("1_yxvaj")]
 
-[node name="AnimationPlayer" parent="." index="1" unique_id=1966723020]
+[node name="AnimationPlayer" parent="." index="1" unique_id=1794270298]
 autoplay = &"spawn"
 
 [node name="AnimationTree" type="AnimationTree" parent="." index="2" unique_id=176285886]

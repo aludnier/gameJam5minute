@@ -5,13 +5,13 @@
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_wovta"]
 radius = 0.98
-height = 2.91
+height = 2.355
 
 [node name="Enemy" type="CharacterBody3D" unique_id=249537311 groups=["enemies"]]
 script = ExtResource("1_m1htj")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=828646068]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.4000001, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1225001, 0)
 shape = SubResource("CapsuleShape3D_wovta")
 
 [node name="NavigationAgent3D" type="NavigationAgent3D" parent="." unique_id=1585572804]
@@ -19,7 +19,7 @@ target_desired_distance = 2.0
 path_height_offset = 0.1
 avoidance_enabled = true
 
-[node name="Man - Eater Bug" parent="." unique_id=617500940 instance=ExtResource("2_wovta")]
+[node name="Man - Eater Bug" parent="." unique_id=2118584844 instance=ExtResource("2_wovta")]
 
 [connection signal="target_reached" from="NavigationAgent3D" to="." method="_on_navigation_agent_3d_target_reached"]
 [connection signal="velocity_computed" from="NavigationAgent3D" to="." method="_on_navigation_agent_3d_velocity_computed"]

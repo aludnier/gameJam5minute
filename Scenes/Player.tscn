@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://ufi0fmftidsb" path="res://Scripts/ScriptPlayer.gd" id="1_ucva2"]
 [ext_resource type="PackedScene" uid="uid://dgs3febcfbmjc" path="res://Scenes/Gun.tscn" id="2_wr06p"]
+[ext_resource type="Texture2D" uid="uid://cxkfslyrh0eu" path="res://Asset/Crosshair-PNG-Image.png" id="3_gntrk"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_iof21"]
 albedo_color = Color(0.91806, 0.575202, 0.222449, 1)
@@ -40,4 +41,21 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.7, 0)
 [node name="Camera3D" type="Camera3D" parent="Head" unique_id=651098293]
 
 [node name="Gun" parent="Head/Camera3D" unique_id=2038628130 instance=ExtResource("2_wr06p")]
-transform = Transform3D(-4, 0, -3.496911e-07, 0, 4, 0, 3.496911e-07, 0, -4, 0.5, -0.29999995, -1.4000001)
+transform = Transform3D(-3.9933994, 4.654135e-10, -0.22969887, -0.006806288, 3.998243, 0.11832978, 0.229598, 0.118525416, -3.9916465, 0.5, -0.29999995, -1.4000001)
+
+[node name="TextureRect" type="TextureRect" parent="Head/Camera3D" unique_id=1728944144]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.44, 0.5199976)
+size_flags_horizontal = 4
+texture = ExtResource("3_gntrk")
+expand_mode = 1

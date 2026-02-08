@@ -3,10 +3,17 @@ extends CharacterBody3D
 @onready var nav_agent = $NavigationAgent3D
 @export var player_path := "/root/Main/Player2"
 @export var ROTATION_SPEED = 5.0
+@export var LIFE = 100
 var SPEED = 3
-
 func _ready():
 	add_to_group("enemies")
+
+func _process(delta: float) -> void:
+	if LIFE <= 0:
+		self.queue_free()
+
+func lose_life(damage :int) -> void:
+	LIFE -= damage
 	
 
 func _physics_process(delta: float) -> void:

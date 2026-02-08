@@ -19,7 +19,7 @@ tracks/0/keys = {
 
 [sub_resource type="Animation" id="Animation_u7kx4"]
 resource_name = "Shoot"
-length = 0.1
+length = 0.2
 step = 0.01
 tracks/0/type = "value"
 tracks/0/imported = false
