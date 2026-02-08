@@ -55,6 +55,7 @@ var freeflying : bool = false
 
 ## Bullets 
 var bullet = load("res://Scenes/Bullet.tscn")
+var bullet_sound = load("res://Asset/805194__mrspivey__laser-gun-02.wav")
 var instance
 
 @onready var gun_anim = $Head/Camera3D/Gun/AnimationPlayer
@@ -124,6 +125,8 @@ func _physics_process(delta: float) -> void:
 	
 	if Input.is_action_pressed("shoot"):
 		if !gun_anim.is_playing():
+			$AudioStreamPlayer3D.stream = bullet_sound
+			$AudioStreamPlayer3D.play()
 			gun_anim.play("Shoot");
 			instance = bullet.instantiate()
 			get_tree().current_scene.add_child(instance)

@@ -14,6 +14,7 @@ func _process(delta: float) -> void:
 
 func lose_life(damage :int) -> void:
 	LIFE -= damage
+	get_node("Man - Eater Bug").hit_flash()
 	
 
 func _physics_process(delta: float) -> void:

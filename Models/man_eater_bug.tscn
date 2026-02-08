@@ -1,6 +1,25 @@
 [gd_scene format=3 uid="uid://c3ymo6borwxki"]
 
 [ext_resource type="PackedScene" uid="uid://cs61gfaugnmgr" path="res://Asset/PlayStation 2 - Yu-Gi-Oh! The Duelists of the Roses - Monsters - Man-Eater Bug/Man - Eater Bug.glb" id="1_yxvaj"]
+[ext_resource type="Shader" uid="uid://bq0n4ggbt5sje" path="res://shader/flash.gdshader" id="3_287x0"]
+[ext_resource type="Script" uid="uid://33t2b2w3kio3" path="res://Scripts/ScriptEnemyModel.gd" id="3_uvtxw"]
+[ext_resource type="Shader" uid="uid://bthi5um43lver" path="res://shader/hit.gdshader" id="4_ky64d"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_lmrds"]
+render_priority = 0
+shader = ExtResource("3_287x0")
+shader_parameter/flash_color = Color(1, 1, 1, 1)
+shader_parameter/intensity = 2.5
+shader_parameter/speed = 20.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_mqob6"]
+render_priority = 0
+shader = ExtResource("4_ky64d")
+shader_parameter/hit_color = Color(1, 0, 0, 1)
+shader_parameter/emission_strength = 1.5
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_287x0"]
+animation = &"die"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_yxvaj"]
 animation = &"spawn"
@@ -16,18 +35,28 @@ advance_mode = 2
 switch_mode = 2
 advance_mode = 2
 
-[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_uvtxw"]
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_ky64d"]
 switch_mode = 2
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_lmrds"]
+switch_mode = 2
+advance_mode = 2
 
 [sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_lmrds"]
 states/Start/position = Vector2(234, 108)
+states/die/node = SubResource("AnimationNodeAnimation_287x0")
+states/die/position = Vector2(715, 55)
 states/spawn/node = SubResource("AnimationNodeAnimation_yxvaj")
 states/spawn/position = Vector2(397, 89)
 states/walk/node = SubResource("AnimationNodeAnimation_djy5i")
-states/walk/position = Vector2(565, 100)
-transitions = ["Start", "spawn", SubResource("AnimationNodeStateMachineTransition_yxvaj"), "spawn", "walk", SubResource("AnimationNodeStateMachineTransition_djy5i"), "walk", "End", SubResource("AnimationNodeStateMachineTransition_uvtxw")]
+states/walk/position = Vector2(574, 100)
+transitions = ["Start", "spawn", SubResource("AnimationNodeStateMachineTransition_yxvaj"), "spawn", "walk", SubResource("AnimationNodeStateMachineTransition_djy5i"), "walk", "die", SubResource("AnimationNodeStateMachineTransition_ky64d"), "die", "End", SubResource("AnimationNodeStateMachineTransition_lmrds")]
 
 [node name="Man - Eater Bug" unique_id=1641714998 instance=ExtResource("1_yxvaj")]
+script = ExtResource("3_uvtxw")
+flash_material = SubResource("ShaderMaterial_lmrds")
+hit_material = SubResource("ShaderMaterial_mqob6")
 
 [node name="AnimationPlayer" parent="." index="1" unique_id=1794270298]
 autoplay = &"spawn"

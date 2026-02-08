@@ -2,13 +2,21 @@
 
 [ext_resource type="Script" uid="uid://dhq7vnnybmpww" path="res://Scripts/ScriptEnemy.gd" id="1_m1htj"]
 [ext_resource type="PackedScene" uid="uid://c3ymo6borwxki" path="res://Models/man_eater_bug.tscn" id="2_wovta"]
+[ext_resource type="Shader" uid="uid://bthi5um43lver" path="res://shader/hit.gdshader" id="3_xeo28"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_wovta"]
 radius = 0.98
 height = 2.355
 
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_kpr8r"]
+render_priority = 0
+shader = ExtResource("3_xeo28")
+shader_parameter/hit_color = Color(1, 0, 0, 1)
+shader_parameter/emission_strength = 1.5
+
 [node name="Enemy" type="CharacterBody3D" unique_id=249537311 groups=["enemies"]]
 script = ExtResource("1_m1htj")
+LIFE = 200
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=828646068]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1225001, 0)
@@ -20,6 +28,7 @@ path_height_offset = 0.1
 avoidance_enabled = true
 
 [node name="Man - Eater Bug" parent="." unique_id=2118584844 instance=ExtResource("2_wovta")]
+hit_material = SubResource("ShaderMaterial_kpr8r")
 
 [connection signal="target_reached" from="NavigationAgent3D" to="." method="_on_navigation_agent_3d_target_reached"]
 [connection signal="velocity_computed" from="NavigationAgent3D" to="." method="_on_navigation_agent_3d_velocity_computed"]

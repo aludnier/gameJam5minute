@@ -42,7 +42,7 @@ uv1_triplanar = true
 script = ExtResource("1_dg77c")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=829527876]
-transform = Transform3D(-0.9291499, 0.3692691, 0.017903851, 0.3666559, 0.9142063, 0.17259787, 0.047367238, 0.16693386, -0.98482955, 0, 0, 0)
+transform = Transform3D(-0.9034751, 0.40386462, -0.14361835, 0.32451966, 0.86337024, 0.38636628, 0.28003547, 0.3024654, -0.9110954, 0, 0, 0)
 light_color = Color(0.93976927, 0.45729816, 0.27959165, 1)
 shadow_enabled = true
 
@@ -50,12 +50,6 @@ shadow_enabled = true
 environment = SubResource("Environment_5vw27")
 
 [node name="Fences" type="Node3D" parent="." unique_id=1791906734]
-
-[node name="Fence" parent="Fences" unique_id=734974815 instance=ExtResource("6_7mycd")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 1, 15)
-
-[node name="Fence2" parent="Fences" unique_id=436235248 instance=ExtResource("6_7mycd")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 1, 15)
 
 [node name="Fence4" parent="Fences" unique_id=694226645 instance=ExtResource("6_7mycd")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 1, 15)
@@ -87,9 +81,6 @@ transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 25, 
 [node name="Fence14" parent="Fences" unique_id=878799840 instance=ExtResource("6_7mycd")]
 transform = Transform3D(-0.50000006, 0, -0.8660254, 0, 1, 0, 0.8660254, 0, -0.50000006, 23.565216, 1, 35.531944)
 
-[node name="Fence16" parent="Fences" unique_id=1104565313 instance=ExtResource("6_7mycd")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -5, 1, 18)
-
 [node name="Fence17" parent="Fences" unique_id=647983659 instance=ExtResource("6_7mycd")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -5, 1, 24)
 
@@ -107,18 +98,6 @@ transform = Transform3D(0.9430312, 0, 0.33270434, 0, 1, 0, -0.33270434, 0, 0.943
 
 [node name="Fence23" parent="Fences" unique_id=1727563638 instance=ExtResource("6_7mycd")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.806812, 1.171231, -27.545439)
-
-[node name="Fence24" parent="Fences" unique_id=1705699851 instance=ExtResource("6_7mycd")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.872203, 1.1757911, -27.519712)
-
-[node name="Fence25" parent="Fences" unique_id=1941375269 instance=ExtResource("6_7mycd")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.880414, 1.2142129, -27.545794)
-
-[node name="Fence26" parent="Fences" unique_id=175954646 instance=ExtResource("6_7mycd")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28, 1, -10)
-
-[node name="Fence27" parent="Fences" unique_id=1767839517 instance=ExtResource("6_7mycd")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22, 1, -10)
 
 [node name="Fence28" parent="Fences" unique_id=518538836 instance=ExtResource("6_7mycd")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16, 1, -10)
@@ -379,6 +358,12 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.800001, 1.1, -14.1)
 
 [node name="Spawn11" type="Node3D" parent="Spawns" unique_id=1042628787]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.1, 1.1, 33.6)
+
+[node name="Spawn12" type="Node3D" parent="Spawns" unique_id=1878923756]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.8, 1.1, -34.5)
+
+[node name="Spawn13" type="Node3D" parent="Spawns" unique_id=324677620]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.700002, 1.1, 30)
 
 [node name="EnemySpawnTimer" type="Timer" parent="." unique_id=97961402]
 wait_time = 1.15

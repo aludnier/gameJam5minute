@@ -59,3 +59,5 @@ scale = Vector2(0.44, 0.5199976)
 size_flags_horizontal = 4
 texture = ExtResource("3_gntrk")
 expand_mode = 1
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="." unique_id=841338634]
