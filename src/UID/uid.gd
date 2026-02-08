@@ -23,7 +23,7 @@ func clear_item():
 	
 @onready var time_label := $Panel/TimeLabel
 
-var time_left := 300.0
+@export var time_left := 300.0
 var running := true
 
 func stop_timer():
