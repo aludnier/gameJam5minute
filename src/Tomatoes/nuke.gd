@@ -21,6 +21,12 @@ func _process(delta):
 	if falling:
 		translate(Vector3(0, -fall_speed * delta, 0))
 
+func kill_enemies():
+	var enemies = find_children_with_var($"../NavigationRegion3D", "LIFE")
+	for enemy in enemies :
+		enemy.lose_life(300)
+	
+
 func _on_body_entered(body):
 	falling = false
 	set_process(false)
@@ -30,13 +36,10 @@ func _on_body_entered(body):
 	rect.color.a = 1.0
 
 	visible = false
+	kill_enemies();
 	while rect.color.a > 0.0:
 		rect.color.a -= 0.02
-		await get_tree().create_timer(1.0).timeout
-
-	var enemies = find_children_with_var($"../NavigationRegion3D", "LIFE")
-	for enemy in enemies:
-		enemy.lose_life(300)
+		await get_tree().create_timer(0.3).timeout
 	global_position = Vector3(0.0, 5405.358, 0.0)
 
 func find_children_with_var(root: Node, var_name: String) -> Array:

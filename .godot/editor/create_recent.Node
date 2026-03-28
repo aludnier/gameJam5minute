@@ -1,3 +1,6 @@
+CollisionShape3D
+Area3D
+Timer
 Label
 Panel
 Button
@@ -5,10 +8,7 @@ LinkButton
 Control
 Node3D
 Camera3D
-Timer
 AudioStreamPlayer
 AnimationPlayer
-Area3D
-CollisionShape3D
 GPUParticles3D
 CSGCombiner3D

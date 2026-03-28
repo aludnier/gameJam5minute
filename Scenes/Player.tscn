@@ -43,6 +43,10 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.7, 0)
 [node name="Gun" parent="Head/Camera3D" unique_id=2038628130 instance=ExtResource("2_wr06p")]
 transform = Transform3D(-3.9933994, 4.654135e-10, -0.22969887, -0.006806288, 3.998243, 0.11832978, 0.229598, 0.118525416, -3.9916465, 0.5, -0.29999995, -1.4000001)
 
+[node name="GunShootRate" type="Timer" parent="Head/Camera3D/Gun" unique_id=759796661]
+wait_time = 0.1
+one_shot = true
+
 [node name="TextureRect" type="TextureRect" parent="Head/Camera3D" unique_id=1728944144]
 anchors_preset = 8
 anchor_left = 0.5

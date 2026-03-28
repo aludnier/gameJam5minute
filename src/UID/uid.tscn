@@ -2,6 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://c5aq3hs3j2l1" path="res://resources/Main Sprites/tomato1.png" id="1_53jut"]
 [ext_resource type="Script" uid="uid://dxwmegoyygayk" path="res://src/UID/uid.gd" id="1_nrbh4"]
+[ext_resource type="Texture2D" uid="uid://daeli7q2236ga" path="res://Asset/freeze_effect.png" id="3_d4ril"]
 
 [sub_resource type="SystemFont" id="SystemFont_nrbh4"]
 subpixel_positioning = 0
@@ -106,3 +107,18 @@ text = "5:00"
 label_settings = SubResource("LabelSettings_nrbh4")
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="ScreenFX" type="CanvasLayer" parent="." unique_id=938301888]
+visible = false
+
+[node name="ColorRect" type="ColorRect" parent="ScreenFX" unique_id=1846545147]
+offset_right = 1170.0
+offset_bottom = 649.0
+mouse_filter = 2
+color = Color(0.8862745, 0, 0.1882353, 0.5882353)
+
+[node name="FreezeEffect" type="Sprite2D" parent="." unique_id=1692907798]
+visible = false
+position = Vector2(566.36957, 317.23517)
+scale = Vector2(0.5954483, 0.5977127)
+texture = ExtResource("3_d4ril")

@@ -7,6 +7,12 @@ var item_textures := {
 	3: preload("res://resources/items/item3.png")
 }
 
+func get_hit():
+	$ScreenFX.visible = true
+	await get_tree().create_timer(0.1).timeout;
+	$ScreenFX.visible = false;
+
+
 func set_random_item():
 	var item_id := randi_range(1, 3)
 
@@ -26,8 +32,13 @@ func clear_item():
 @export var time_left := 300.0
 var running := true
 
+func launch_timer():
+	running = true
+	$FreezeEffect.visible = false
+
 func stop_timer():
 	running = false
+	$FreezeEffect.visible = true
 
 func update_label():
 	var minutes := int(time_left) / 60

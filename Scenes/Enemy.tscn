@@ -14,12 +14,12 @@ shader = ExtResource("3_xeo28")
 shader_parameter/hit_color = Color(1, 0, 0, 1)
 shader_parameter/emission_strength = 1.5
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_xeo28"]
-size = Vector3(2.1000001, 1, 2.1000001)
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_xeo28"]
 
 [node name="Enemy" type="CharacterBody3D" unique_id=249537311 groups=["enemies"]]
+collision_layer = 33
+collision_mask = 33
 script = ExtResource("1_m1htj")
-LIFE = 200
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=828646068]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1225001, 0)
@@ -37,10 +37,15 @@ hit_material = SubResource("ShaderMaterial_kpr8r")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1225001, 0)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=1166152992]
-transform = Transform3D(0.770923, -0.23440671, 0.59222555, 0.1710333, 0.9718517, 0.16202448, -0.61353505, -0.023618102, 0.78931415, 0.07961128, 0.008101225, 0.43946558)
-shape = SubResource("BoxShape3D_xeo28")
+transform = Transform3D(2.220504, 0.12818749, -2.013189, -0.3088574, 2.980241, -0.15089965, 1.9934816, 0.31895387, 2.2190764, 0, 0, 0)
+shape = SubResource("CylinderShape3D_xeo28")
+
+[node name="Attack_recover" type="Timer" parent="." unique_id=2042691881]
+wait_time = 1.3499999999999999
+one_shot = true
 
 [connection signal="target_reached" from="NavigationAgent3D" to="." method="_on_navigation_agent_3d_target_reached"]
 [connection signal="velocity_computed" from="NavigationAgent3D" to="." method="_on_navigation_agent_3d_velocity_computed"]
 [connection signal="area_shape_entered" from="Area3D" to="." method="_on_area_3d_area_shape_entered"]
 [connection signal="body_entered" from="Area3D" to="." method="_on_area_3d_body_entered"]
+[connection signal="body_exited" from="Area3D" to="." method="_on_area_3d_body_exited"]

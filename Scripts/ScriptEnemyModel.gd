@@ -53,9 +53,10 @@ func attack():
 	is_moving = false
 	anim_tree.set("parameters/conditions/Is Moving", false)
 
-	await get_tree().create_timer(1.25).timeout
 	if uid:
 		uid.time_left -= 15
+		uid.get_hit();
+	await get_tree().create_timer(1.25).timeout
 	anim_tree.set("parameters/conditions/attacking", false)
 	is_moving = true
 	anim_tree.set("parameters/conditions/Is Moving", true)
